@@ -2,7 +2,6 @@
 import { useEffect, useState } from 'react';
 import { Index } from 'flexsearch';
 import { encode, rtl } from './dist/module/lang/latin/extra.js';
-import styles from './styles.module.css';
 
 let data = {};
 
@@ -10,6 +9,7 @@ const Search = () => {
   const [index, setIndex] = useState(new Index({ encode: encode }));
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -26,6 +26,8 @@ const Search = () => {
         setIndex(index.add(parseInt(curIndex + 1), item.title));
       });
 
+      setLoading(false);
+
       console.log('%c iteration done ', 'color: grey');
     };
 
@@ -38,7 +40,18 @@ const Search = () => {
 
   return (
     <div>
-      <input value={query} onChange={(e) => setQuery(e.target.value)} />
+      {/* {loading && (
+        <div>
+          <i>loading</i>
+        </div>
+      )} */}
+      <input
+        value={query}
+        placeholder={loading ? 'loading...' : 'Search'}
+        disabled={loading}
+        onChange={(e) => setQuery(e.target.value)}
+      />
+
       <ul>
         {results.map((result) => {
           if (data[result]) return <li key={result}>{data[result].title}</li>;
