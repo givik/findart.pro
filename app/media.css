@@ -1,0 +1,11 @@
+@media only screen and (max-width: 500px) {
+  .companies {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 1024px) {
+  .companies {
+    display: none;
+  }
+}

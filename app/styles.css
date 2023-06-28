@@ -1,0 +1,160 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #d3d3d3;
+}
+
+#site {
+  text-align: center;
+  zoom: 2.1;
+  height: 100%;
+}
+
+#logo-container {
+  max-width: 300px;
+}
+
+#logo {
+  position: relative;
+  top: 0;
+  width: 80%;
+  height: auto;
+  /* transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s; */
+}
+
+#search_field {
+  max-width: 300px;
+  width: 90%;
+  height: 30px;
+  background: white;
+  border: 1px solid grey;
+  outline: 0;
+  border-radius: 30px;
+  padding-left: 15px;
+  font-weight: 100;
+  box-sizing: border-box;
+  margin: 10px 5% 10px 5%;
+  /* transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s; */
+}
+
+#search_field:hover,
+#search_field:focus {
+  border: 1px solid black;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+#search_field:focus::placeholder,
+#search_field:hover::placeholder {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  /* color: #fff; */
+}
+
+/* #search_field:focus::placeholder {
+  color: transparent;
+} */
+
+#search_btn {
+  background: grey;
+  color: white;
+  border: none;
+  height: 21px;
+  cursor: pointer;
+}
+
+.item {
+  margin-top: 40px;
+  border: 1.2px dotted black;
+  border-radius: 12px;
+  width: 300px;
+  padding: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.item:hover {
+  border-style: dashed;
+  cursor: pointer;
+}
+
+.poster {
+  float: left;
+  height: auto;
+  width: auto;
+}
+
+.overview {
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5; /* Number of lines to show */
+}
+
+.overview strong {
+  font-size: 15px;
+}
+
+.about {
+  width: 120px;
+  margin-left: 36px;
+  float: left;
+}
+
+.companies {
+  height: 140px;
+  max-width: 200px;
+}
+
+.companies .logo {
+  margin: 10px;
+  width: 35%;
+  height: auto;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100% - 110px);
+}
+
+header {
+  text-align: left;
+  background-color: #eee;
+  height: 40px;
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  background-color: #eee;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  /* Footer styles */
+  position: sticky;
+  height: 70px;
+  top: 100vh;
+  justify-content: center;
+}
+
+@import url('media.css');
