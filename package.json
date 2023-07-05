@@ -10,7 +10,6 @@
     "lhci": "lhci autorun"
   },
   "dependencies": {
-    "@orama/orama": "^1.0.7",
     "flexsearch": "^0.7.31",
     "next": "13.4.6",
     "react": "18.2.0",
