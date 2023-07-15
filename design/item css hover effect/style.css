@@ -1,5 +1,5 @@
 .item__meta--title::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: 0;
@@ -50,12 +50,14 @@
   justify-content: center;
   border-radius: 10px;
 }
-.item__image img {
+.item {
   transform: translateY(0);
-  transition: 0.4s ease;
+  transition: 0.33s ease;
+  cursor: pointer;
 }
 .item__info {
   padding: 0.75rem 0;
+  display: none;
 }
 .item__meta {
   margin-bottom: 0.5rem;
@@ -80,24 +82,24 @@
   font-size: 0.875rem;
 }
 .item__tags li + li::before {
-  content: "-";
+  content: '-';
   padding: 0 0.25rem;
   display: inline;
 }
 .item img {
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   width: 75%;
 }
-.item:hover .item__image img {
-  transform: translateY(-1em);
+.item:hover {
+  transform: translateY(-0.33em);
 }
-.item:focus-within .item__image {
+.item:focus-within {
   outline: 3px solid #eeeeee;
 }
 
 body {
   background-color: #f7f7f7;
   padding-top: 2em;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
