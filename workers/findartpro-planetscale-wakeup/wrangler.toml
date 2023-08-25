@@ -1,0 +1,8 @@
+name = "findartpro-planetscale-wakeup"
+main = "src/index.ts"
+compatibility_date = "2023-08-24"
+usage_model = "bundled"
+env = { }
+
+[triggers]
+crons = [ "0 0 * * sun" ]
