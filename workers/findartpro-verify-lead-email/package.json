@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@planetscale/database": "^1.11.0"
   }
 }

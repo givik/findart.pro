@@ -1,5 +1,5 @@
 name = "findartpro-verify-lead-email"
-main = "src/index.ts"
+main = "src/index.js"
 compatibility_date = "2023-08-25"
 usage_model = "bundled"
 env = { }

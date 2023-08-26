@@ -1,5 +1,5 @@
 name = "findartpro-add-lead-email"
-main = "src/index.ts"
+main = "src/index.js"
 compatibility_date = "2023-08-24"
 usage_model = "bundled"
 env = { }

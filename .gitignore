@@ -39,3 +39,5 @@ next-env.d.ts
 /images
 /unlighthouse
 /.lighthouseci
+.env
+node_modules

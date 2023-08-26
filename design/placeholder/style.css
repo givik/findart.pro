@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #808080;
+
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  perspective: 600px;
+
+  font-family: 'Nunito Sans', sans-serif;
+  color: #333;
+}
+
+.card {
+  position: relative;
+  max-width: 300px;
+  padding: 1rem;
+  transform: translateY(0);
+
+  background: linear-gradient(rgba(255, 30, 0, 0.2), rgba(3, 255, 142, 0.3)),
+    linear-gradient(90deg, transparent 20%, rgba(163, 97, 255, 0.96), transparent 80%);
+  /* background: white; */
+  backdrop-filter: blur(200px);
+  background: #fff;
+
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  /* background: linear-gradient(rgba(255, 30, 0, 0.2), rgba(3, 255, 142, 0.3)),
+    linear-gradient(90deg, transparent 20%, rgba(163, 97, 255, 0.96), transparent 80%); */
+  /* border-radius: 10px; */
+  /* outline: 0.1px solid #ffffff; */
+  cursor: default;
+  outline: 1px solid #111;
+  /*!box-shadow: 3px 4px 0 3px #111; */
+  /* transform: translateY(-0.1em); */
+}
+
+.card:hover .bg {
+  scale: 1.1;
+}
+
+.graphic-container {
+  overflow: hidden;
+  position: relative;
+
+  width: 100%;
+  aspect-ratio: 1/1;
+  /* border-radius: 0.25rem; */
+  transition: scale 0.3s ease-in-out;
+}
+
+.graphic-container:active .bg {
+  scale: 1.06;
+}
+
+.card:hover .graphic-container {
+  cursor: pointer;
+  scale: 1.03;
+  /*! outline: 1.5px solid #111; */
+}
+
+.bg,
+.character {
+  position: absolute;
+  width: 100%;
+}
+
+.bg {
+  scale: 1;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.1s ease-in-out;
+}
+
+.character {
+  object-fit: contain;
+  height: 110%;
+  top: 50%;
+  translate: 0 -50%;
+}
+
+.about {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: normal;
+}
+.qr {
+  width: 20%;
+  aspect-ratio: 1/1;
+}
+
+/* animations
+.card:hover {
+  animation: 2s infinite linear alternate-reverse, 7s infinite linear;
+  animation-name: card3d, reflection3d;
+}
+
+.bg:hover {
+  animation: items3d 2s infinite linear alternate-reverse;
+}
+
+.character:hover {
+  animation: items3d 2s infinite linear alternate-reverse;
+}
+
+@keyframes reflection3d {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 300px 0;
+  }
+}
+@keyframes card3d {
+  from {
+    transform: rotateY(20deg);
+  }
+  to {
+    transform: rotateY(-20deg);
+  }
+}
+
+@keyframes items3d {
+  from {
+    transform: translateX(-10%);
+  }
+  to {
+    transform: translateX(10%);
+  }
+} */
+
+/* NEW */
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.hover-3d {
+  margin: 0 auto;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.hover-3d:hover {
+  /* box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3); */
+}
+
+.with-bg {
+  margin-top: 2em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(Untitled.png);
+}
+
+#info {
+  margin: 5em 0;
+}
+
+.cube-rotate {
+  margin-top: 2em;
+  position: relative;
+  display: inline-block;
+  perspective: 600px;
+}
+
+.cube-rotate-content {
+  position: relative;
+  display: inline-block;
+  perspective-origin: 50% 50%;
+  transform-style: preserve-3d;
+  transition: background-color 0.3s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.cube-rotate:hover .cube-rotate-content {
+  background-color: skyblue;
+  transform: translate3d(0px, -10px, 0px) rotateX(90deg);
+}
+
+.cube-rotate-content div {
+  transform-origin: 50% 0%;
+}
+
+.cube-rotate :nth-child(2) {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  left: 0;
+  top: 0;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: slateblue;
+  transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+}
