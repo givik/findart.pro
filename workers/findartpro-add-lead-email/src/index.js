@@ -4,55 +4,73 @@ import { connect } from '@planetscale/database';
 import { EmailMessage } from 'cloudflare:email';
 import { createMimeMessage } from 'mimetext';
 
-const jwtSecret = 'hello@world?!123';
-
-function generateToken(payload) {
-  const header = { algorithm: 'HS256', typ: 'JWT' };
-  const encodedHeader = btoa(JSON.stringify(header));
-  const encodedPayload = btoa(JSON.stringify(payload));
-
-  const signature = btoa(encodedHeader + '.' + encodedPayload + jwtSecret);
-
-  return `${encodedHeader}.${encodedPayload}.${signature}`;
-}
-
 export default {
   async fetch(request, env, ctx) {
-    const config = {
-      host: env.DATABASE_HOST,
-      username: env.DATABASE_USERNAME,
-      password: env.DATABASE_PASSSWORD,
-      fetch: (url, init) => {
-        delete init['cache'];
-        return fetch(url, init);
-      },
-    };
-
-    const connection = connect(config);
-
-    // parse url request - e-mail
+    // get email - from url
     const { searchParams } = new URL(request.url);
     let user_email = searchParams.get('email');
 
-    console.log('searchParams', searchParams);
-    console.log('\n___________________________\n');
-    console.log('user_email', user_email);
+    // validate & makke safe e-mail
+    const email_regex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+    if (!email_regex.test(user_email)) return new Response('bad request');
+    user_email = user_email.trim().toLowerCase();
 
-    // check e-mail format
-    const regex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
-    if (!regex.test(user_email)) return new Response('bad request');
+    // get emails from db
+    let lead_emails = await env.fa_lead_emails.get('email');
+    console.log('\n\n\n');
+    console.log('lead_emails', lead_emails);
+    console.log('\n\n\n');
+    console.log('typeof', typeof lead_emails);
 
-    // insert e-mail to database
-    //! try {
-    //!   const data = await connection.execute(
-    //!     `INSERT INTO lead_emails (email) VALUES ('${user_email}')`
-    //!   );
-    //! } catch (error) {
-    //!   return new Response(`Can't insert e-mail to DB`);
-    //! }
+    // check if exists
+    // if (lead_emails.find((record) => record.email === user_email))
+    //   new Response(`Email allready exists`);
+
+    const new_record = {
+      // id: 1, // lead_emails.length + 1,
+      email: user_email,
+      active: 0,
+      datetime: new Date().toLocaleString('en-US', { timeZone: 'Asia/Tbilisi' }),
+    };
+
+    const put_res = await env.fa_lead_emails.put('email', JSON.stringify(new_record));
+
+    console.log('\n\n\n');
+    console.log('lead_emails after - put', lead_emails);
+
+    const generateToken = (payload) => {
+      const jwtSecret = 'hello@world?!123';
+      const header = { algorithm: 'HS256', typ: 'JWT' };
+      const encodedHeader = btoa(JSON.stringify(header));
+      const encodedPayload = btoa(JSON.stringify(payload));
+
+      const signature = btoa(encodedHeader + '.' + encodedPayload + jwtSecret);
+
+      return `${encodedHeader}.${encodedPayload}.${signature}`;
+    };
 
     const user = { id: 123, username: user_email };
     const token = generateToken(user);
+
+    //! Planetscale
+    // const config = {
+    //   host: env.DATABASE_HOST,
+    //   username: env.DATABASE_USERNAME,
+    //   password: env.DATABASE_PASSSWORD,
+    //   fetch: (url, init) => {
+    //     delete init['cache'];
+    //     return fetch(url, init);
+    //   },
+    // };
+
+    // const connection = connect(config);
+    // try {
+    //   const data = await connection.execute(
+    //     `INSERT INTO lead_emails (email) VALUES ('${user_email}')`
+    //   );
+    // } catch (error) {
+    //   return new Response(`Can't insert e-mail to DB`);
+    // }
 
     const css = `html,
                         html, body {

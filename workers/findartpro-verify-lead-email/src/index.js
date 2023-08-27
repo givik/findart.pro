@@ -2,9 +2,8 @@
 
 import { connect } from '@planetscale/database';
 
-const jwtSecret = 'hello@world?!123';
-
 function validateToken(token) {
+  const jwtSecret = 'hello@world?!123';
   const [encodedHeader, encodedPayload, signature] = token.split('.');
 
   const calculatedSignature = btoa(encodedHeader + '.' + encodedPayload + jwtSecret);
