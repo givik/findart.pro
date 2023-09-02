@@ -19,6 +19,10 @@ const App = () => {
 
       <Search />
 
+      <div className="text-description">find art, prompts, styles</div>
+
+      <span className="soon">søøn..</span>
+
       <div className="companies">
         <Image
           className="logo"

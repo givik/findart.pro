@@ -156,3 +156,18 @@ footer {
 }
 
 @import url('media.css');
+
+.text-description {
+  color: #111;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: fantasy;
+}
+
+.soon {
+  color: #333;
+  font-size: 33px;
+  position: absolute;
+  bottom: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
