@@ -53,7 +53,7 @@ const Search = () => {
       <input
         ref={inputRef}
         value={query}
-        //! TODO onChange={(e) => setQuery(e.target.value)}
+        onChange={(e) => setQuery(e.target.value)}
         type="text"
         autoComplete="off"
         placeholder="Search"

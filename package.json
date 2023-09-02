@@ -12,9 +12,9 @@
   "dependencies": {
     "@planetscale/database": "^1.11.0",
     "flexsearch": "^0.7.31",
-    "next": "13.4.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@lhci/cli": "^0.12.0",
