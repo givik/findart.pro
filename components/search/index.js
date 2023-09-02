@@ -42,11 +42,11 @@ const Search = () => {
     };
 
     fetchData().catch(console.error);
-  }, []);
+  }, [index]);
 
   useEffect(() => {
     setResults(index.search(query));
-  }, [query]);
+  }, [index, query]);
 
   return (
     <>

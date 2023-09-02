@@ -8,7 +8,7 @@ export const metadata = {
   description: 'Find art like a pro.',
 };
 
-export const runtime = 'edge';
+// export const runtime = 'edge';
 
 const inter = Inter({ subsets: ['latin'] });
 
