@@ -1,6 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // output: 'export',
+  rewrites: async () => [
+    {
+      source: '/landing',
+      destination: '/landing/index.html',
+    },
+  ],
   images: {
     remotePatterns: [
       {
