@@ -22,7 +22,7 @@ const Search = () => {
   useEffect(() => {
     const fetchData = async () => {
       //  fetch data to search
-      const res = await fetch('/movies.json', {
+      const res = await fetch('/data.json', {
         next: { revalidate: 99999 },
       });
       const arrayRes = await res.json();
@@ -53,10 +53,7 @@ const Search = () => {
       <input
         ref={inputRef}
         value={query}
-        // onChange={(e) => setQuery(e.target.value)}
-        onChange={(e) => {
-          console.log('change');
-        }}
+        onChange={(e) => setQuery(e.target.value)}
         type="text"
         autoComplete="off"
         placeholder="Search"

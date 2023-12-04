@@ -11,18 +11,17 @@ body {
 
 #site {
   text-align: center;
-  zoom: 2.1;
   height: 100%;
 }
 
 #logo-container {
-  max-width: 300px;
+  max-width: 100%;
 }
 
 #logo {
   position: relative;
   top: 0;
-  width: 80%;
+  width: 420px;
   height: auto;
   /* transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -30,14 +29,15 @@ body {
 }
 
 #search_field {
-  max-width: 300px;
+  max-width: 550px;
   width: 90%;
-  height: 30px;
+  height: 63px;
   background: white;
-  border: 1px solid grey;
+  border: 3px solid grey;
   outline: 0;
   border-radius: 30px;
-  padding-left: 15px;
+  font-size: 30px;
+  padding-left: 25px;
   font-weight: 100;
   box-sizing: border-box;
   margin: 10px 5% 10px 5%;
@@ -48,7 +48,7 @@ body {
 
 #search_field:hover,
 #search_field:focus {
-  border: 1px solid black;
+  border: 3px solid black;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
