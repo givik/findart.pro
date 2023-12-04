@@ -19,19 +19,17 @@ const App = () => {
 
       <Search />
 
-      <span className="soon">
-        <div className="companies">
-          <Image
-            className="logo"
-            src="/cloudflare.svg"
-            alt="Cloudflare Logo"
-            width={60}
-            height={65}
-            sizes="100vw"
-            priority
-          />
-        </div>
-      </span>
+      <div className="companies">
+        <Image
+          className="logo"
+          src="/cloudflare.svg"
+          alt="Cloudflare Logo"
+          width={60}
+          height={65}
+          sizes="100vw"
+          priority
+        />
+      </div>
     </main>
   );
 };
