@@ -32,6 +32,7 @@ const Search = () => {
       arrayRes.forEach((item, curIndex) => {
         data[curIndex] = item;
         console.log(item.category);
+
         //  When the component first loads, we need to iterate
         // through data values and add each to the search index.
         setIndex(index.add(parseInt(curIndex), item.category));
