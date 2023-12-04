@@ -19,30 +19,19 @@ const App = () => {
 
       <Search />
 
-      <div className="text-description">find art, prompts, styles</div>
-
-      <span className="soon">søøn..</span>
-
-      <div className="companies">
-        <Image
-          className="logo"
-          src="/cloudflare.svg"
-          alt="Cloudflare Logo"
-          width={60}
-          height={65}
-          sizes="100vw"
-          priority
-        />
-        <Image
-          className="logo"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={60}
-          height={60}
-          sizes="100vw"
-          priority
-        />
-      </div>
+      <span className="soon">
+        <div className="companies">
+          <Image
+            className="logo"
+            src="/cloudflare.svg"
+            alt="Cloudflare Logo"
+            width={60}
+            height={65}
+            sizes="100vw"
+            priority
+          />
+        </div>
+      </span>
     </main>
   );
 };
