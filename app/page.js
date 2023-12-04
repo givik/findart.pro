@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import Search from '@/components/search';
+import Search from '@/components/search/search';
 
 const App = () => {
   return (
@@ -16,20 +16,7 @@ const App = () => {
           priority
         />
       </div>
-
       <Search />
-
-      <div className="companies">
-        <Image
-          className="logo"
-          src="/cloudflare.svg"
-          alt="Cloudflare Logo"
-          width={60}
-          height={65}
-          sizes="100vw"
-          priority
-        />
-      </div>
     </main>
   );
 };
