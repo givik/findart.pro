@@ -61,30 +61,19 @@ const Search = () => {
         id="search_field"
       />
       {results.map((result) => {
+        let i = 0;
+
         if (data[result]) {
-          const timestamp = data[result].release_date * 1000;
-          const date = new Date(timestamp);
-          const year = date.getFullYear();
-
-          let genres = [];
-          for (let i = 0; i < data[result].genres.length; i++) {
-            genres.push(
-              <span key={data[result].genres[i]}>
-                {data[result].genres[i]}
-                {i !== data[result].genres.length - 1 && ', '}
-              </span>
-            );
-          }
-
+          i++;
           return (
-            <div className="item" key={data[result].id}>
+            <div className="item" key={i}>
               <div className="poster">
                 <Image
                   width={120}
                   height={180}
                   unoptimized={true}
-                  alt={data[result].title}
-                  src={data[result].poster}
+                  alt={data[result].category}
+                  src={data[result].img}
                   placeholder="blur"
                   blurDataURL="/fav.png"
                   sizes="100vw"
@@ -92,14 +81,8 @@ const Search = () => {
               </div>
               <div className="about">
                 <div>
-                  <strong>{data[result].title}</strong>
+                  <strong>{data[result].category}</strong>
                 </div>
-                <br />
-                <div className="overview">{data[result].overview}</div>
-                <br />
-                <div>{year}</div>
-                <br />
-                <div>{genres}</div>
               </div>
             </div>
           );
