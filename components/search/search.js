@@ -31,9 +31,10 @@ const Search = () => {
 
       arrayRes.forEach((item, curIndex) => {
         data[curIndex] = item;
+        console.log(item.category);
         //  When the component first loads, we need to iterate
         // through data values and add each to the search index.
-        setIndex(index.add(parseInt(curIndex), item.title));
+        setIndex(index.add(parseInt(curIndex), item.category));
       });
 
       console.log('%c iteration done ', 'color: grey');
@@ -73,7 +74,7 @@ const Search = () => {
                   height={180}
                   unoptimized={true}
                   alt={data[result].category}
-                  src={data[result].img}
+                  src={data[result].image}
                   placeholder="blur"
                   blurDataURL="/fav.png"
                   sizes="100vw"
