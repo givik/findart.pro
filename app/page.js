@@ -1,49 +1,48 @@
 'use client';
 import Image from 'next/image';
+import Search from '@/components/search';
 
 const App = () => {
   return (
     <main>
-      <div>
-        <div className="text-description">find art, prompts, styles</div>
+      <div id="logo-container">
+        <Image
+          id="logo"
+          src="/FindArt.pro.svg"
+          alt="FindArt.pro Logo"
+          width={400}
+          height={100}
+          sizes="100vw"
+          priority
+        />
       </div>
-      <div>
-        <div id="logo-container">
-          <Image
-            id="logo"
-            src="/FindArt.pro.svg"
-            alt="FindArt.pro Logo"
-            width={400}
-            height={100}
-            sizes="100vw"
-            priority
-          />
-          <div>
-            <Image
-              className="screen"
-              src="/screens/Main.jpg"
-              alt="FindArt.pro screen"
-              width={400}
-              height={100}
-              sizes="100vw"
-              priority
-            />
-          </div>
 
-          {/* <div>
-            <Image
-              className="screen"
-              src="/screens/View.jpg"
-              alt="FindArt.pro screen"
-              width={400}
-              height={100}
-              sizes="100vw"
-              priority
-            />
-          </div> */}
-        </div>
-      </div>
+      <Search />
+
+      <div className="text-description">find art, prompts, styles</div>
+
       <span className="soon">søøn..</span>
+
+      <div className="companies">
+        <Image
+          className="logo"
+          src="/cloudflare.svg"
+          alt="Cloudflare Logo"
+          width={60}
+          height={65}
+          sizes="100vw"
+          priority
+        />
+        <Image
+          className="logo"
+          src="/next.svg"
+          alt="Next.js Logo"
+          width={60}
+          height={60}
+          sizes="100vw"
+          priority
+        />
+      </div>
     </main>
   );
 };
