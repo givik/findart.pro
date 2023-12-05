@@ -78,7 +78,8 @@ body {
   margin-top: 40px;
   border: 1.2px dotted black;
   border-radius: 12px;
-  width: 300px;
+  width: 500px;
+  height: 500px;
   padding: 10px;
   display: inline-block;
   text-align: left;

@@ -6,7 +6,11 @@ import Image from 'next/image';
 let data = {};
 
 const Search = () => {
-  const [index, setIndex] = useState(new Index({}));
+  const [index, setIndex] = useState(
+    new Index({
+      tokenize: 'forward',
+    })
+  );
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -27,18 +31,17 @@ const Search = () => {
       });
       const arrayRes = await res.json();
 
-      console.log('%c fetching done ', 'color: orange');
+      // console.log('%c fetching done ', 'color: orange');
 
       arrayRes.forEach((item, curIndex) => {
         data[curIndex] = item;
-        console.log(item.category);
 
         //  When the component first loads, we need to iterate
         // through data values and add each to the search index.
         setIndex(index.add(parseInt(curIndex), item.category));
       });
 
-      console.log('%c iteration done ', 'color: grey');
+      // console.log('%c iteration done ', 'color: grey');
 
       setLoading(false); // Set loading to false after data is fetched
     };
@@ -63,23 +66,24 @@ const Search = () => {
         id="search_field"
       />
       {results.map((result) => {
-        let i = 0;
+        var id = 'id' + Math.random().toString(16).slice(2);
 
         if (data[result]) {
-          i++;
           return (
-            <div className="item" key={i}>
+            <div className="item" key={id}>
               <div className="poster">
-                <Image
-                  width={120}
-                  height={180}
-                  unoptimized={true}
-                  alt={data[result].category}
-                  src={data[result].image}
-                  placeholder="blur"
-                  blurDataURL="/fav.png"
-                  sizes="100vw"
-                />
+                {data[result].image && (
+                  <Image
+                    width={120}
+                    height={180}
+                    unoptimized={true}
+                    alt={data[result].category}
+                    src={data[result].image}
+                    placeholder="blur"
+                    blurDataURL="/fav.png"
+                    sizes="100vw"
+                  />
+                )}
               </div>
               <div className="about">
                 <div>
