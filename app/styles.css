@@ -76,7 +76,7 @@ body {
 
 .item {
   margin-top: 40px;
-  border: 1.2px dotted black;
+  border: 1px dashed #444;
   border-radius: 12px;
   width: 500px;
   height: 500px;
@@ -86,7 +86,7 @@ body {
 }
 
 .item:hover {
-  border-style: dashed;
+  border-style: solid;
   cursor: pointer;
 }
 
