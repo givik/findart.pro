@@ -6,7 +6,7 @@ jobs:
     permissions:
       contents: read
       deployments: write
-    name: Publish to Cloudflare Pages if success
+    name: Publish to Cloudflare Pages
     steps:
       - name: Checkout
         uses: actions/checkout@v3
