@@ -6,16 +6,16 @@ import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 
 let data = {};
 
-var prevScrollpos = window.scrollY;
-window.onscroll = function () {
-  var currentScrollPos = window.scrollY;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById('navbar').style.top = '0';
-  } else {
-    document.getElementById('navbar').style.top = '-50px';
-  }
-  prevScrollpos = currentScrollPos;
-};
+// var prevScrollpos = window.scrollY;
+// window.onscroll = function () {
+//   var currentScrollPos = window.scrollY;
+//   if (prevScrollpos > currentScrollPos) {
+//     document.getElementById('navbar').style.top = '0';
+//   } else {
+//     document.getElementById('navbar').style.top = '-50px';
+//   }
+//   prevScrollpos = currentScrollPos;
+// };
 
 const Search = ({ onLogoClick }) => {
   const [index, setIndex] = useState(
