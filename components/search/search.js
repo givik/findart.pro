@@ -73,7 +73,7 @@ const Search = ({ onLogoClick }) => {
   }, [index]);
 
   useEffect(() => {
-    setResults(index.search(query));
+    if (query) setResults(index.search(query));
   }, [index, query]);
 
   return (
@@ -91,7 +91,7 @@ const Search = ({ onLogoClick }) => {
         spellCheck="false"
         id="search_field"
       />
-      <content>
+      <div id="content">
         {results.map((result) => {
           var id = 'id' + Math.random().toString(16).slice(2);
 
@@ -121,7 +121,7 @@ const Search = ({ onLogoClick }) => {
             );
           }
         })}
-      </content>
+      </div>
     </>
   );
 };
