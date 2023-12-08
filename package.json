@@ -10,6 +10,7 @@
     "lhci": "lhci autorun"
   },
   "dependencies": {
+    "@formatjs/icu-messageformat-parser": "^2.7.3",
     "@planetscale/database": "^1.11.0",
     "axios": "^1.6.2",
     "flexsearch": "^0.7.31",
