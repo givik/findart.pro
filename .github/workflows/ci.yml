@@ -20,12 +20,6 @@ jobs:
         run: |
           npm install
           npm run build
-      - name: run Lighthouse CI
-        run: |
-          npm install -g @lhci/cli@0.11.x
-          lhci autorun
-        env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LIGHTHOUSE_APP_TOKEN }}
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
