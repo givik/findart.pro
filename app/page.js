@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Search from '@/components/search/search';
 
 const App = () => {
+  const onLogoClick = () => {};
+
   return (
     <main>
       <div id="logo-container">
@@ -14,9 +16,10 @@ const App = () => {
           height={100}
           sizes="100vw"
           priority
+          onClick={onLogoClick}
         />
       </div>
-      <Search />
+      <Search onLogoClick />
     </main>
   );
 };
