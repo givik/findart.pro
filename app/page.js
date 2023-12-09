@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <main>
-      <div id="logo-container">
+      <div id="container">
         <Image
           id="logo"
           src="/FindArt.pro.svg"

@@ -7,16 +7,6 @@ const nextConfig = {
       destination: '/landing/index.html',
     },
   ],
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'image.tmdb.org',
-        port: '',
-        pathname: '/t/**',
-      },
-    ],
-  },
 };
 
 module.exports = nextConfig;
