@@ -36,7 +36,7 @@ body {
 
 #logo {
   position: relative;
-  top: -3px;
+  top: -33px;
   width: 420px;
   height: auto;
   /* transition: 0.3s;
@@ -47,7 +47,7 @@ body {
 #search_field {
   max-width: 550px;
   width: 87%;
-  height: 54px;
+  height: 70px !important;
   background: white;
   border: 3px solid grey;
   outline: 0;
@@ -58,6 +58,7 @@ body {
   box-sizing: border-box;
   margin: 8px 5% 0px 5%;
   position: relative;
+  top: -33px;
   /* transition: 0.1s;
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s; */
