@@ -17,6 +17,7 @@ export default function RootLayout({ children: Content }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/fav.png" sizes="any" />
+        <meta name="google-adsense-account" content="ca-pub-9123253083798474"></meta>
       </head>
       <body className={inter.className}>
         <div id="site">
