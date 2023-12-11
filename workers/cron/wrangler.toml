@@ -1,3 +1,9 @@
 name = "cron"
-compatibility_date = "2023-12-09"
+main = "src/index.js"
+compatibility_date = "2023-12-11"
+workers_dev = true
+route = ""
+zone_id = ""
 
+[triggers]
+crons = ["0 * * * *"]
