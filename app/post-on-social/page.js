@@ -1,9 +1,11 @@
+import { useEffect } from 'react';
+
 const App = () => {
-  return (
-    <main>
-      <div>ok</div>
-    </main>
-  );
+  useEffect(() => {
+    // do something
+  }, []);
+
+  return [{ great: 'wow' }];
 };
 
 export default App;
