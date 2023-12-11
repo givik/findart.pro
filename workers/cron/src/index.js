@@ -24,12 +24,15 @@ async function handleRequest(request) {
   });
 }
 
-addEventListener('scheduled', (event) => {
-  event.waitUntil(doScheduledThing(event.request));
-});
+addEventListener('scheduled', (event) => {});
 
 async function doScheduledThing(request) {
   // Go update an API
   // Get something like weather data
-  return new Response('OK');
+
+  const res = await fetch('https://findart.pro/post-on-social', {
+    method: 'GET',
+  });
+
+  return res.json();
 }
