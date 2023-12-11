@@ -9,6 +9,7 @@
  */
 
 addEventListener('fetch', (event) => {
+  event.preventDefault();
   event.respondWith(handleRequest(event.request));
 });
 
@@ -18,7 +19,10 @@ async function handleRequest(request) {
   });
 }
 
-addEventListener('scheduled', (event) => {});
+addEventListener('scheduled', (event) => {
+  event.preventDefault();
+  doScheduledThing();
+});
 
 async function doScheduledThing(request) {
   // Go update an API
