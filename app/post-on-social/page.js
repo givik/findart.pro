@@ -6,7 +6,7 @@ const App = () => {
     // do something
   }, []);
 
-  return [{ great: 'wow' }];
+  return <div>ok</div>;
 };
 
 export default App;
