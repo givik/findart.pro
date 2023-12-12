@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import Search from '@/components/search/search';
+import Search from '../components/search/search';
 
 const App = () => {
   const onLogoClick = () => {};

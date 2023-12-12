@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google';
 import './styles.css';
-import Header from '@/components/header';
-import Footer from '@/components/footer';
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 export const metadata = {
   title: 'FindArt.pro',
