@@ -6,7 +6,7 @@ const { exec } = require('child_process');
 const App = () => {
   useEffect(() => {
     //! need work
-    series([() => exec('npm run dev'), () => exec('npm run test')]);
+    series([() => exec('npm run build video')]);
   }, []);
 
   return <div>ok</div>;
