@@ -12,7 +12,7 @@
     "lint": "next lint",
     "lhci": "lhci autorun",
     "start video": "remotion studio",
-    "build video": "remotion render HelloWorld out/video.mp4",
+    "build video": "remotion render MyComp",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },
