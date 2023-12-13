@@ -26,7 +26,7 @@ export const renderVideo = async ({ id, inputProps }) => {
     inputProps,
   };
 
-  return makeRequest < RenderMediaOnLambdaOutput > ('/api/lambda/render', body);
+  return makeRequest('/api/lambda/render', body);
 };
 
 export const getProgress = async ({ id, bucketName }) => {
