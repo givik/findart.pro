@@ -2,7 +2,7 @@ import { series } from 'async';
 const exec = require('child_process').exec;
 
 const App = () => {
-  series([() => exec('npm run render MyComp')]);
+  series([() => exec('npm run render MyComp public/videos/video.mp4')]);
   // series([
   //   () =>
   //     exec(
