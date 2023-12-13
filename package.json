@@ -11,9 +11,9 @@
     "start": "next start",
     "lint": "next lint",
     "lhci": "lhci autorun",
-    "start video": "remotion studio",
-    "build video": "remotion render MyComp",
-    "upgrade": "remotion upgrade",
+    "remotion": "remotion studio",
+    "render": "remotion render",
+    "deploy": "node deploy.mjs",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },
   "repository": {},
