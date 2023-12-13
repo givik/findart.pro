@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "browser": {
-    "child_process": true
+    "child_process": false
+  },
+  "resolutions": {
+    "cssnano-preset-simple": "1.1.1",
+    "webpack": "4.43"
   },
   "scripts": {
     "dev": "next dev",
@@ -23,6 +27,7 @@
     "@remotion/player": "^4.0.19",
     "@remotion/shapes": "^4.0.19",
     "async": "^3.2.5",
+    "child_process": "^1.0.2",
     "flexsearch": "^0.7.31",
     "next": "^13.4.13",
     "react": "^18.2.0",

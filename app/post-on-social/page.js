@@ -1,12 +1,10 @@
 'use client';
 import { useEffect } from 'react';
 import { series } from 'async';
-const { exec } = require('child_process');
+const exec = require('child_process').exec;
 
 const App = () => {
-  useEffect(() => {
-    series([() => exec('npm run render MyComp')]);
-  }, []);
+  series([() => exec('npm run render MyComp')]);
 
   return <div>ok</div>;
 };

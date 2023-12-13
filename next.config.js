@@ -7,7 +7,7 @@ const nextConfig = {
     // https://github.com/aws-amplify/amplify-js/issues/11030#issuecomment-1598207365
 
     // Avoid AWS SDK Node.js require issue
-    if (isServer && nextRuntime === "nodejs")
+    if (isServer && nextRuntime === 'nodejs')
       config.plugins.push(
         new webpack.IgnorePlugin({ resourceRegExp: /^aws-crt$/ }),
         new webpack.IgnorePlugin({
