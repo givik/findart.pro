@@ -1,5 +1,3 @@
-'use client';
-import { useEffect } from 'react';
 import { series } from 'async';
 const exec = require('child_process').exec;
 
