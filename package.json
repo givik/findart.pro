@@ -2,6 +2,9 @@
   "name": "remotion-next-example",
   "version": "0.1.0",
   "private": true,
+  "browser": {
+    "child_process": true
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,6 +22,7 @@
     "@remotion/paths": "^4.0.19",
     "@remotion/player": "^4.0.19",
     "@remotion/shapes": "^4.0.19",
+    "async": "^3.2.5",
     "flexsearch": "^0.7.31",
     "next": "^13.4.13",
     "react": "^18.2.0",
