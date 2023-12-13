@@ -2,6 +2,8 @@
 import Image from 'next/image';
 import Search from '../components/search/search';
 
+export const runtime = 'edge';
+
 const App = () => {
   const onLogoClick = () => {};
 
