@@ -1,30 +1,24 @@
-import { z } from "zod";
-import {
-  AbsoluteFill,
-  Sequence,
-  spring,
-  useCurrentFrame,
-  useVideoConfig,
-} from "remotion";
-import { CompositionProps } from "../../types/constants";
-import { NextLogo } from "./NextLogo";
-import { loadFont, fontFamily } from "@remotion/google-fonts/Inter";
-import React, { useMemo } from "react";
-import { Rings } from "./Rings";
-import { TextFade } from "./TextFade";
+import { z } from 'zod';
+import { AbsoluteFill, Sequence, spring, useCurrentFrame, useVideoConfig } from 'remotion';
+import { CompositionProps } from '../../types/constants';
+import { NextLogo } from './NextLogo';
+import { loadFont, fontFamily } from '@remotion/google-fonts/Inter';
+import React, { useMemo } from 'react';
+import { Rings } from './Rings';
+import { TextFade } from './TextFade';
 
 loadFont();
 
-const container: React.CSSProperties = {
-  backgroundColor: "white",
+const container = {
+  backgroundColor: 'white',
 };
 
-const logo: React.CSSProperties = {
-  justifyContent: "center",
-  alignItems: "center",
+const logo = {
+  justifyContent: 'center',
+  alignItems: 'center',
 };
 
-export const Main = ({ title }: z.infer<typeof CompositionProps>) => {
+export const Main = ({ title }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -41,7 +35,7 @@ export const Main = ({ title }: z.infer<typeof CompositionProps>) => {
     delay: transitionStart,
   });
 
-  const titleStyle: React.CSSProperties = useMemo(() => {
+  const titleStyle = useMemo(() => {
     return { fontFamily, fontSize: 70 };
   }, []);
 
@@ -49,9 +43,9 @@ export const Main = ({ title }: z.infer<typeof CompositionProps>) => {
     <AbsoluteFill style={container}>
       <Sequence durationInFrames={transitionStart + transitionDuration}>
         <Rings outProgress={logoOut}></Rings>
-        <AbsoluteFill style={logo}>
+        {/* <AbsoluteFill style={logo}>
           <NextLogo outProgress={logoOut}></NextLogo>
-        </AbsoluteFill>
+        </AbsoluteFill> */}
       </Sequence>
       <Sequence from={transitionStart + transitionDuration / 2}>
         <TextFade>
