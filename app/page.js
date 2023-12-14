@@ -19,7 +19,6 @@ const App = () => {
           onClick={onLogoClick}
         />
       </div>
-      <div>სიყვარულია</div>
       <Search onLogoClick />
     </main>
   );
