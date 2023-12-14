@@ -8,6 +8,7 @@ export const metadata = {
   description: 'Find art like a pro.',
 };
 
+//? cloudflare on pages
 export const runtime = 'edge';
 
 const inter = Inter({ subsets: ['latin'] });
