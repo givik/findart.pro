@@ -20,6 +20,7 @@ const App = () => {
         />
       </div>
       <Search onLogoClick />
+      <div>ქრისტეა ღმერთი!!!</div>
     </main>
   );
 };
