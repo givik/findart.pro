@@ -19,8 +19,8 @@ const App = () => {
           onClick={onLogoClick}
         />
       </div>
-      <Search onLogoClick />
       <div>ქრისტეა ღმერთი!!!</div>
+      <Search onLogoClick />
     </main>
   );
 };
