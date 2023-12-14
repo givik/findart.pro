@@ -5,7 +5,7 @@ import Footer from '../components/footer';
 
 export const metadata = {
   title: 'FindArt.pro',
-  description: 'Find art like a pro.',
+  description: 'Find art prompts.',
 };
 
 const inter = Inter({ subsets: ['latin'] });
