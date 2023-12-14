@@ -2,7 +2,7 @@ import { series } from 'async';
 const exec = require('child_process').exec;
 const spawn = require('child_process').spawn;
 
-//? cloudflare on pages
+//? static
 export const runtime = 'edge';
 
 const App = () => {
