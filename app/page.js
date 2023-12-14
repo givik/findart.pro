@@ -19,7 +19,7 @@ const App = () => {
           onClick={onLogoClick}
         />
       </div>
-      <div>ქრისტეა ღმერთი!!!</div>
+      <div>სიყვარულია</div>
       <Search onLogoClick />
     </main>
   );
