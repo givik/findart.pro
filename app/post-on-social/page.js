@@ -3,7 +3,7 @@ const exec = require('child_process').exec;
 const spawn = require('child_process').spawn;
 
 //? cloudflare on pages
-// export const runtime = 'edge';
+export const runtime = 'edge';
 
 const App = () => {
   spawn('npm run render MyComp public/videos/video.mp4', { stdio: 'inherit', shell: true });
