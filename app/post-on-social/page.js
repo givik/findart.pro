@@ -1,6 +1,9 @@
 import { series } from 'async';
 const exec = require('child_process').exec;
 
+//? cloudflare on pages
+export const runtime = 'edge';
+
 const App = () => {
   series([() => exec('npm run render MyComp public/videos/video.mp4')]);
   // series([
