@@ -45,20 +45,19 @@ body {
 }
 
 #search_field {
-  max-width: 550px;
+  max-width: 554px;
   width: 87%;
-  height: 70px !important;
+  height: 70px;
   background: white;
-  border: 3px solid grey;
   outline: 0;
   border-radius: 36px;
   font-size: 33px;
-  padding-left: 25px;
   font-weight: 100;
   box-sizing: border-box;
-  margin: 8px 5% 0px 5%;
+  margin: 14px 3% 13px 3%;
   position: relative;
-  top: -33px;
+  padding: 10px 30px;
+  border: 0;
   /* transition: 0.1s;
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s; */
