@@ -6,8 +6,8 @@ const spawn = require('child_process').spawn;
 // export const runtime = 'edge';
 
 const App = () => {
-  spawn('ls -all', { stdio: 'inherit', shell: true });
-  series([() => exec('npm run render MyComp public/videos/video.mp4')]);
+  spawn('npm run render MyComp public/videos/video.mp4', { stdio: 'inherit', shell: true });
+  // series([() => exec('npm run render MyComp public/videos/video.mp4')]);
   // series([
   //   () =>
   //     exec(
