@@ -44,7 +44,7 @@ export const Main = ({ title }) => {
       <Sequence durationInFrames={transitionStart + transitionDuration}>
         <Rings outProgress={logoOut}></Rings>
         <AbsoluteFill style={logo}>
-          <NextLogo outProgress={logoOut}></NextLogo>
+          {/* <NextLogo outProgress={logoOut}></NextLogo> */}
         </AbsoluteFill>
       </Sequence>
       <Sequence from={transitionStart + transitionDuration / 2}>
