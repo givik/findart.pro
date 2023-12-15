@@ -1,17 +1,15 @@
-import { evolvePath } from "@remotion/paths";
-import React, { useMemo } from "react";
-import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { evolvePath } from '@remotion/paths';
+import React, { useMemo } from 'react';
+import { interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';
 
-const mask: React.CSSProperties = {
-  maskType: "alpha",
+const mask = {
+  maskType: 'alpha',
 };
 
 const nStroke =
-  "M149.508 157.52L69.142 54H54V125.97H66.1136V69.3836L139.999 164.845C143.333 162.614 146.509 160.165 149.508 157.52Z";
+  'M149.508 157.52L69.142 54H54V125.97H66.1136V69.3836L139.999 164.845C143.333 162.614 146.509 160.165 149.508 157.52Z';
 
-export const NextLogo: React.FC<{
-  outProgress: number;
-}> = ({ outProgress }) => {
+export const NextLogo = ({ outProgress }) => {
   const { fps } = useVideoConfig();
   const frame = useCurrentFrame();
 
@@ -39,7 +37,7 @@ export const NextLogo: React.FC<{
     durationInFrames: 30,
   });
 
-  const style: React.CSSProperties = useMemo(() => {
+  const style = useMemo(() => {
     return {
       height: 140,
       borderRadius: 70,
@@ -53,10 +51,7 @@ export const NextLogo: React.FC<{
 
   const evolution1 = evolvePath(evolve1, firstPath);
   const evolution2 = evolvePath(evolve2, secondPath);
-  const evolution3 = evolvePath(
-    interpolate(evolve3, [0, 1], [0, 0.7]),
-    thirdPath
-  );
+  const evolution3 = evolvePath(interpolate(evolve3, [0, 1], [0, 0.7]), thirdPath);
 
   return (
     <svg style={style} fill="none" viewBox="0 0 180 180">
