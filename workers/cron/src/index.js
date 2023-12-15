@@ -25,8 +25,7 @@ addEventListener('scheduled', (event) => {
 });
 
 async function doScheduledThing(request) {
-  // Go update an API
-  // Get something like weather data
+  // Finished
 
   const res = await fetch('https://findart.pro/post-on-social', {
     method: 'GET',
