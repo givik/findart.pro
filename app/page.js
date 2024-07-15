@@ -7,29 +7,15 @@ const App = () => {
 
   return (
     <main>
-      <div id="container">
-        <Image
-          id="logo"
-          src="/FindArt.pro.svg"
-          alt="FindArt.pro Logo"
-          width={400}
-          height={100}
-          sizes="100vw"
-          priority
-          onClick={onLogoClick}
-        />
-        <Image
-          id="logo"
-          src="/FindArt.pro.svg"
-          alt="FindArt.pro Logo"
-          width={400}
-          height={100}
-          sizes="100vw"
-          priority
-          onClick={onLogoClick}
-        />
-      </div>
+      <div id="container">God is Everything</div>
       <Search onLogoClick />
+      God is Love and God is Love
+      <br />
+      <br />
+      Thank you Jesus Christ
+      <br />
+      <br />
+      ღმერთი არის სიყვარული
     </main>
   );
 };
