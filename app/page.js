@@ -7,15 +7,9 @@ const App = () => {
 
   return (
     <main>
-      <div id="container">God is Everything</div>
       <Search onLogoClick />
-      God is Love and God is Love
+      <div id="container">Pray when you have bad time</div>
       <br />
-      <br />
-      Thank you Jesus Christ
-      <br />
-      <br />
-      ღმერთი არის სიყვარული
     </main>
   );
 };
