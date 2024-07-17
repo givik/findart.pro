@@ -6,6 +6,7 @@ const spawn = require('child_process').spawn;
 const App = () => {
   spawn('npm run render MyComp public/videos/video.mp4', { stdio: 'inherit', shell: true });
 
+  // fb auth
   // series([
   //   () =>
   //     exec(
