@@ -78,6 +78,7 @@ const Search = ({ onLogoClick }) => {
 
   return (
     <>
+      <h1>hiii</h1>
       <input
         ref={inputRef}
         value={query}
