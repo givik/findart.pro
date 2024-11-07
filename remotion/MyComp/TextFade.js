@@ -1,17 +1,9 @@
-import React, { useMemo } from "react";
-import {
-  AbsoluteFill,
-  interpolate,
-  spring,
-  useCurrentFrame,
-  useVideoConfig,
-} from "remotion";
+import React, { useMemo } from 'react';
+import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';
 
-const outer: React.CSSProperties = {};
+const outer = {};
 
-export const TextFade: React.FC<{
-  children: React.ReactNode;
-}> = ({ children }) => {
+export const TextFade = ({ children }) => {
   const { fps } = useVideoConfig();
   const frame = useCurrentFrame();
 
@@ -30,14 +22,14 @@ export const TextFade: React.FC<{
 
   const maskImage = `linear-gradient(-45deg, transparent ${leftStop}%, black ${rightStop}%)`;
 
-  const container: React.CSSProperties = useMemo(() => {
+  const container = useMemo(() => {
     return {
-      justifyContent: "center",
-      alignItems: "center",
+      justifyContent: 'center',
+      alignItems: 'center',
     };
   }, []);
 
-  const content: React.CSSProperties = useMemo(() => {
+  const content = useMemo(() => {
     return {
       maskImage,
       WebkitMaskImage: maskImage,

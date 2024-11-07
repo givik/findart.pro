@@ -1,37 +1,32 @@
-import React from "react";
-import { AbsoluteFill, interpolateColors, useVideoConfig } from "remotion";
+import React from 'react';
+import { AbsoluteFill, interpolateColors, useVideoConfig } from 'remotion';
 
-const RadialGradient: React.FC<{
-  radius: number;
-  color: string;
-}> = ({ radius, color }) => {
+const RadialGradient = ({ radius, color }) => {
   const height = radius * 2;
   const width = radius * 2;
 
   return (
     <AbsoluteFill
       style={{
-        justifyContent: "center",
-        alignItems: "center",
+        justifyContent: 'center',
+        alignItems: 'center',
       }}
     >
       <div
         style={{
           height,
           width,
-          borderRadius: "50%",
+          borderRadius: '50%',
           backgroundColor: color,
-          position: "absolute",
-          boxShadow: "0 0 100px rgba(0, 0, 0, 0.05)",
+          position: 'absolute',
+          boxShadow: '0 0 100px rgba(0, 0, 0, 0.05)',
         }}
       ></div>
     </AbsoluteFill>
   );
 };
 
-export const Rings: React.FC<{
-  outProgress: number;
-}> = ({ outProgress }) => {
+export const Rings = ({ outProgress }) => {
   const scale = 1 / (1 - outProgress);
   const { height } = useVideoConfig();
 
@@ -48,7 +43,7 @@ export const Rings: React.FC<{
             <RadialGradient
               key={i}
               radius={height * 0.3 * i}
-              color={interpolateColors(i, [0, 4], ["#fff", "#fff"])}
+              color={interpolateColors(i, [0, 4], ['#fff', '#fff'])}
             />
           );
         })
