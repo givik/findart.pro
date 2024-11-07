@@ -8,7 +8,7 @@ const App = () => {
   return (
     <main>
       <Search onLogoClick />
-      <div id="container">Thank You Lord 🕊️</div>
+      <div id="container">Thank You 🕊️</div>
       <br />
     </main>
   );
