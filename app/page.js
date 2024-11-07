@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <main>
-      <Search onLogoClick />
+      <Search />
       <div id="container">Thank You 🕊️</div>
       <br />
     </main>
