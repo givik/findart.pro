@@ -1,0 +1,330 @@
+[
+  {
+    "Col0": "2",
+    "A": "Original",
+    "B": "Artist",
+    "D": "\"alien by\"",
+    "E": "\"robot by\"",
+    "F": "\"spaceship by\"",
+    "G": "\"futuristic building by\""
+  },
+  {
+    "Col0": "3",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed.png",
+    "B": "Midjourney\nLeft Blank in Prompt",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed.png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(1).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(2).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(3).png"
+  },
+  {
+    "Col0": "4",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(4).png",
+    "B": "Wayne Barlowe",
+    "B.1_HREF": "https://waynebarlowe.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(5).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(6).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(7).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(8).png"
+  },
+  {
+    "Col0": "5",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(9).png",
+    "B": "John Berkey",
+    "B.1_HREF": "https://www.johnberkey.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(10).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(11).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(12).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(13).png"
+  },
+  {
+    "Col0": "6",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(14).png",
+    "B": "Neil Blevins",
+    "B.1_HREF": "http://neilblevins.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(15).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(16).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(17).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(18).png"
+  },
+  {
+    "Col0": "7",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(19).png",
+    "B": "Doug Chiang",
+    "B.1_HREF": "https://en.wikipedia.org/wiki/Doug_Chiang",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(20).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(21).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(22).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(23).png"
+  },
+  {
+    "Col0": "8",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(24).png",
+    "B": "Peter Elson",
+    "B.1_HREF": "http://www.peterelson.co.uk/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(25).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(26).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(27).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(28).png"
+  },
+  {
+    "Col0": "9",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(29).png",
+    "B": "Jesper Ejsing",
+    "B.1_HREF": "http://jesperejsing.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(30).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(31).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(32).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(33).png"
+  },
+  {
+    "Col0": "10",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(34).png",
+    "B": "M.C. Escher",
+    "B.1_HREF": "https://mcescher.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(35).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(36).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(37).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(38).png"
+  },
+  {
+    "Col0": "11",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(39).png",
+    "B": "Hugh Ferriss",
+    "B.1_HREF": "https://en.wikipedia.org/wiki/Hugh_Ferriss",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(40).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(41).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(42).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(43).png"
+  },
+  {
+    "Col0": "12",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(44).png",
+    "B": "Chris Foss",
+    "B.1_HREF": "https://www.chrisfossart.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(45).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(46).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(47).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(48).png"
+  },
+  {
+    "Col0": "13",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(49).png",
+    "B": "Brian Froud",
+    "B.1_HREF": "https://www.ferniebrae.com/brian-froud",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(50).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(51).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(52).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(53).png"
+  },
+  {
+    "Col0": "14",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(54).png",
+    "B": "Wendy Froud",
+    "B.1_HREF": "https://www.ferniebrae.com/wendy-froud",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(55).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(56).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(57).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(58).png"
+  },
+  {
+    "Col0": "15",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(59).png",
+    "B": "Justin Gerard",
+    "B.1_HREF": "https://www.gallerygerard.com/the-art-of-justin-gerard",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(60).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(61).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(62).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(63).png"
+  },
+  {
+    "Col0": "16",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(64).png",
+    "B": "H.R. Giger",
+    "B.1_HREF": "https://www.hrgiger.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(65).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(66).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(67).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(68).png"
+  },
+  {
+    "Col0": "17",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(69).png",
+    "B": "Jean Giraud",
+    "B.1_HREF": "https://en.wikipedia.org/wiki/Jean_Giraud",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(70).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(71).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(72).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(73).png"
+  },
+  {
+    "Col0": "18",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(74).png",
+    "B": "Rube Goldberg",
+    "B.1_HREF": "https://www.rubegoldberg.org/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(75).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(76).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(77).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(78).png"
+  },
+  {
+    "Col0": "19",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(79).png",
+    "B": "John Harris",
+    "B.1_HREF": "http://www.alisoneldred.com/john-harris/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(80).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(81).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(82).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(83).png"
+  },
+  {
+    "Col0": "20",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(84).png",
+    "B": "Jim Henson",
+    "B.1_HREF": "https://en.wikipedia.org/wiki/Jim_Henson",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(85).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(86).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(87).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(88).png"
+  },
+  {
+    "Col0": "21",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(89).png",
+    "B": "Ellen Jewett",
+    "B.1_HREF": "https://www.ellenjewettsculpture.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(90).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(91).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(92).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(93).png"
+  },
+  {
+    "Col0": "22",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(94).png",
+    "B": "H.P. Lovecraft",
+    "B.1_HREF": "https://en.wikipedia.org/wiki/H._P._Lovecraft",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(95).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(96).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(97).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(98).png"
+  },
+  {
+    "Col0": "23",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(99).png",
+    "B": "Robert McCall",
+    "B.1_HREF": "https://www.mccallstudios.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(100).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(101).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(102).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(103).png"
+  },
+  {
+    "Col0": "24",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(104).png",
+    "B": "Ralph McQuarrie",
+    "B.1_HREF": "https://en.wikipedia.org/wiki/Ralph_McQuarrie",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(105).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(106).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(107).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(108).png"
+  },
+  {
+    "Col0": "25",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(109).png",
+    "B": "Ian McQue",
+    "B.1_HREF": "https://www.iamag.co/the-art-of-ian-mcque/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(110).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(111).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(112).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(113).png"
+  },
+  {
+    "Col0": "26",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(114).png",
+    "B": "Rodney Matthews",
+    "B.1_HREF": "https://www.rodneymatthewsstudios.com/en-us",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(115).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(116).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(117).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(118).png"
+  },
+  {
+    "Col0": "27",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(119).png",
+    "B": "Syd Mead",
+    "B.1_HREF": "https://sydmead.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(120).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(121).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(122).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(123).png"
+  },
+  {
+    "Col0": "28",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(124).png",
+    "B": "Peter Mohrbacher",
+    "B.1_HREF": "https://vandalhigh.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(125).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(126).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(127).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(128).png"
+  },
+  {
+    "Col0": "29",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(129).png",
+    "B": "Victor Mosquera",
+    "B.1_HREF": "https://www.victormosquera.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(130).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(131).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(132).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(133).png"
+  },
+  {
+    "Col0": "30",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(134).png",
+    "B": "W. Heath Robinson",
+    "B.1_HREF": "https://en.wikipedia.org/wiki/W._Heath_Robinson",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(135).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(136).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(137).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(138).png"
+  },
+  {
+    "Col0": "31",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(139).png",
+    "B": "Jakub Rozalski",
+    "B.1_HREF": "https://jrozalski.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(140).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(141).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(142).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(143).png"
+  },
+  {
+    "Col0": "32",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(144).png",
+    "B": "Maurice Sendak",
+    "B.1_HREF": "https://www.sendakfoundation.org/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(145).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(146).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(147).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(148).png"
+  },
+  {
+    "Col0": "33",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(149).png",
+    "B": "Simon Stålenhag",
+    "B.1_HREF": "https://www.simonstalenhag.se/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(150).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(151).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(152).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(153).png"
+  },
+  {
+    "Col0": "34",
+    "A.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(154).png",
+    "B": "William Stout",
+    "B.1_HREF": "https://www.williamstout.com/",
+    "D.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(155).png",
+    "E.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(156).png",
+    "F.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(157).png",
+    "G.1_SRC": "http://127.0.0.1:5500/Sci-fi_files/unnamed(158).png"
+  }
+]
