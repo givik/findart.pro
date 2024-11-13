@@ -8,7 +8,7 @@ const App = () => {
   return (
     <main>
       <Search />
-      <div id="container">Thank You</div>
+      {/* <div id="container">Thank You</div> */}
       <br />
     </main>
   );

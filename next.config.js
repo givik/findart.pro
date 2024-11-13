@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   output: 'export',
   webpack: (config, { webpack, isServer, nextRuntime }) => {
     // Workaround for the following issue:

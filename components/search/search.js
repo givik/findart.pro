@@ -1,40 +1,36 @@
 'use client';
 import { useEffect, useState, useRef } from 'react';
-import { Index } from 'flexsearch';
 import Image from 'next/image';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 
 let data = {};
 
-// var prevScrollpos = window.scrollY;
-// window.onscroll = function () {
-//   var currentScrollPos = window.scrollY;
-//   if (prevScrollpos > currentScrollPos) {
-//     document.getElementById('navbar').style.top = '0';
-//   } else {
-//     document.getElementById('navbar').style.top = '-50px';
-//   }
-//   prevScrollpos = currentScrollPos;
-// };
-
 const Search = ({ onLogoClick }) => {
-  const [index, setIndex] = useState(
-    new Index({
-      tokenize: 'forward',
-    })
-  );
+  const [index, setIndex] = useState(null);
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-
   const inputRef = useRef(null);
 
   useEffect(() => {
+    const initializeIndex = async () => {
+      try {
+        const { Index } = await import('flexsearch');
+        const newIndex = new Index({ tokenize: 'forward' });
+        setIndex(newIndex);
+      } catch (error) {
+        console.warn('FlexSearch Index instantiation failed:', error);
+      }
+    };
+
+    initializeIndex();
+  }, []);
+
+  useEffect(() => {
     const url = `${pathname}?${searchParams}`;
-    // You can now use the current URL
     setQuery(searchParams.get('query'));
   }, [pathname, searchParams]);
 
@@ -44,43 +40,37 @@ const Search = ({ onLogoClick }) => {
     }
   }, [loading]);
 
-  // onLogoClick(router.push('?q=' + e.target.value));
-
   useEffect(() => {
     const fetchData = async () => {
-      //  fetch data to search
-      const res = await fetch('/data.json', {
-        next: { revalidate: 99999 },
-      });
+      const res = await fetch('/data.json', { next: { revalidate: 99999 } });
       const arrayRes = await res.json();
-
-      // console.log('%c fetching done ', 'color: orange');
 
       arrayRes.forEach((item, curIndex) => {
         data[curIndex] = item;
-
-        //  When the component first loads, we need to iterate
-        // through data values and add each to the search index.
-        setIndex(index.add(parseInt(curIndex), item.category));
+        if (index) {
+          index.add(parseInt(curIndex), item.category);
+        }
       });
 
-      // console.log('%c iteration done ', 'color: grey');
-
-      setLoading(false); // Set loading to false after data is fetched
+      setLoading(false);
     };
 
-    fetchData().catch(console.error);
+    if (index) {
+      fetchData().catch(console.error);
+    }
   }, [index]);
 
   useEffect(() => {
-    if (query) setResults(index.search(query));
+    if (query && index) {
+      setResults(index.search(query));
+    }
   }, [index, query]);
 
   return (
     <>
       <input
         ref={inputRef}
-        value={query}
+        value={query ? query : ''}
         onChange={(e) => {
           setQuery(e.target.value);
           router.push('?query=' + e.target.value);
@@ -93,7 +83,7 @@ const Search = ({ onLogoClick }) => {
       />
       <div id="content">
         {results.map((result) => {
-          var id = 'id' + Math.random().toString(16).slice(2);
+          const id = 'id' + Math.random().toString(16).slice(2);
 
           if (data[result]) {
             return (
