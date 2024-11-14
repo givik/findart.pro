@@ -8,8 +8,8 @@
   {
     "Col0": "3",
     "A": "Midjourney\nLeft Blank in Prompt",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed.png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(1).png"
+    "B.1_SRC": "Styles_files/unnamed.png",
+    "C.1_SRC": "Styles_files/unnamed(1).png"
   },
   {
     "Col0": "4",
@@ -18,313 +18,313 @@
   {
     "Col0": "5",
     "A": "Angelpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(2).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(3).png"
+    "B.1_SRC": "Styles_files/unnamed(2).png",
+    "C.1_SRC": "Styles_files/unnamed(3).png"
   },
   {
     "Col0": "6",
     "A": "Aquapunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(4).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(5).png"
+    "B.1_SRC": "Styles_files/unnamed(4).png",
+    "C.1_SRC": "Styles_files/unnamed(5).png"
   },
   {
     "Col0": "7",
     "A": "Arcanepunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(6).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(7).png"
+    "B.1_SRC": "Styles_files/unnamed(6).png",
+    "C.1_SRC": "Styles_files/unnamed(7).png"
   },
   {
     "Col0": "8",
     "A": "Astropunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(8).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(9).png"
+    "B.1_SRC": "Styles_files/unnamed(8).png",
+    "C.1_SRC": "Styles_files/unnamed(9).png"
   },
   {
     "Col0": "9",
     "A": "Atompunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(10).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(11).png"
+    "B.1_SRC": "Styles_files/unnamed(10).png",
+    "C.1_SRC": "Styles_files/unnamed(11).png"
   },
   {
     "Col0": "10",
     "A": "Biopunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(12).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(13).png"
+    "B.1_SRC": "Styles_files/unnamed(12).png",
+    "C.1_SRC": "Styles_files/unnamed(13).png"
   },
   {
     "Col0": "11",
     "A": "Bloodpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(14).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(15).png"
+    "B.1_SRC": "Styles_files/unnamed(14).png",
+    "C.1_SRC": "Styles_files/unnamed(15).png"
   },
   {
     "Col0": "12",
     "A": "Bubblepunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(16).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(17).png"
+    "B.1_SRC": "Styles_files/unnamed(16).png",
+    "C.1_SRC": "Styles_files/unnamed(17).png"
   },
   {
     "Col0": "13",
     "A": "Contrapunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(18).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(19).png"
+    "B.1_SRC": "Styles_files/unnamed(18).png",
+    "C.1_SRC": "Styles_files/unnamed(19).png"
   },
   {
     "Col0": "14",
     "A": "Cryopunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(20).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(21).png"
+    "B.1_SRC": "Styles_files/unnamed(20).png",
+    "C.1_SRC": "Styles_files/unnamed(21).png"
   },
   {
     "Col0": "15",
     "A": "Crystalpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(22).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(23).png"
+    "B.1_SRC": "Styles_files/unnamed(22).png",
+    "C.1_SRC": "Styles_files/unnamed(23).png"
   },
   {
     "Col0": "16",
     "A": "Cyberpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(24).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(25).png"
+    "B.1_SRC": "Styles_files/unnamed(24).png",
+    "C.1_SRC": "Styles_files/unnamed(25).png"
   },
   {
     "Col0": "17",
     "A": "Deathpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(26).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(27).png"
+    "B.1_SRC": "Styles_files/unnamed(26).png",
+    "C.1_SRC": "Styles_files/unnamed(27).png"
   },
   {
     "Col0": "18",
     "A": "Decopunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(28).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(29).png"
+    "B.1_SRC": "Styles_files/unnamed(28).png",
+    "C.1_SRC": "Styles_files/unnamed(29).png"
   },
   {
     "Col0": "19",
     "A": "Devilpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(30).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(31).png"
+    "B.1_SRC": "Styles_files/unnamed(30).png",
+    "C.1_SRC": "Styles_files/unnamed(31).png"
   },
   {
     "Col0": "20",
     "A": "Dieselpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(32).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(33).png"
+    "B.1_SRC": "Styles_files/unnamed(32).png",
+    "C.1_SRC": "Styles_files/unnamed(33).png"
   },
   {
     "Col0": "21",
     "A": "Doompunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(34).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(35).png"
+    "B.1_SRC": "Styles_files/unnamed(34).png",
+    "C.1_SRC": "Styles_files/unnamed(35).png"
   },
   {
     "Col0": "22",
     "A": "Dragonpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(36).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(37).png"
+    "B.1_SRC": "Styles_files/unnamed(36).png",
+    "C.1_SRC": "Styles_files/unnamed(37).png"
   },
   {
     "Col0": "23",
     "A": "Ecopunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(38).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(39).png"
+    "B.1_SRC": "Styles_files/unnamed(38).png",
+    "C.1_SRC": "Styles_files/unnamed(39).png"
   },
   {
     "Col0": "24",
     "A": "Electropunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(40).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(41).png"
+    "B.1_SRC": "Styles_files/unnamed(40).png",
+    "C.1_SRC": "Styles_files/unnamed(41).png"
   },
   {
     "Col0": "25",
     "A": "Etherealpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(42).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(43).png"
+    "B.1_SRC": "Styles_files/unnamed(42).png",
+    "C.1_SRC": "Styles_files/unnamed(43).png"
   },
   {
     "Col0": "26",
     "A": "Fairypunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(44).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(45).png"
+    "B.1_SRC": "Styles_files/unnamed(44).png",
+    "C.1_SRC": "Styles_files/unnamed(45).png"
   },
   {
     "Col0": "27",
     "A": "Fantasypunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(46).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(47).png"
+    "B.1_SRC": "Styles_files/unnamed(46).png",
+    "C.1_SRC": "Styles_files/unnamed(47).png"
   },
   {
     "Col0": "28",
     "A": "Flowerpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(48).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(49).png"
+    "B.1_SRC": "Styles_files/unnamed(48).png",
+    "C.1_SRC": "Styles_files/unnamed(49).png"
   },
   {
     "Col0": "29",
     "A": "Futurepunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(50).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(51).png"
+    "B.1_SRC": "Styles_files/unnamed(50).png",
+    "C.1_SRC": "Styles_files/unnamed(51).png"
   },
   {
     "Col0": "30",
     "A": "Gamerpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(52).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(53).png"
+    "B.1_SRC": "Styles_files/unnamed(52).png",
+    "C.1_SRC": "Styles_files/unnamed(53).png"
   },
   {
     "Col0": "31",
     "A": "Geopunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(54).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(55).png"
+    "B.1_SRC": "Styles_files/unnamed(54).png",
+    "C.1_SRC": "Styles_files/unnamed(55).png"
   },
   {
     "Col0": "32",
     "A": "Ghostpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(56).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(57).png"
+    "B.1_SRC": "Styles_files/unnamed(56).png",
+    "C.1_SRC": "Styles_files/unnamed(57).png"
   },
   {
     "Col0": "33",
     "A": "Glasspunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(58).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(59).png"
+    "B.1_SRC": "Styles_files/unnamed(58).png",
+    "C.1_SRC": "Styles_files/unnamed(59).png"
   },
   {
     "Col0": "34",
     "A": "Gothicpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(60).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(61).png"
+    "B.1_SRC": "Styles_files/unnamed(60).png",
+    "C.1_SRC": "Styles_files/unnamed(61).png"
   },
   {
     "Col0": "35",
     "A": "Gutterpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(62).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(63).png"
+    "B.1_SRC": "Styles_files/unnamed(62).png",
+    "C.1_SRC": "Styles_files/unnamed(63).png"
   },
   {
     "Col0": "36",
     "A": "Matrixpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(64).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(65).png"
+    "B.1_SRC": "Styles_files/unnamed(64).png",
+    "C.1_SRC": "Styles_files/unnamed(65).png"
   },
   {
     "Col0": "37",
     "A": "Modpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(66).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(67).png"
+    "B.1_SRC": "Styles_files/unnamed(66).png",
+    "C.1_SRC": "Styles_files/unnamed(67).png"
   },
   {
     "Col0": "38",
     "A": "Ninjapunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(68).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(69).png"
+    "B.1_SRC": "Styles_files/unnamed(68).png",
+    "C.1_SRC": "Styles_files/unnamed(69).png"
   },
   {
     "Col0": "39",
     "A": "Pyropunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(70).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(71).png"
+    "B.1_SRC": "Styles_files/unnamed(70).png",
+    "C.1_SRC": "Styles_files/unnamed(71).png"
   },
   {
     "Col0": "40",
     "A": "Rainbowpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(72).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(73).png"
+    "B.1_SRC": "Styles_files/unnamed(72).png",
+    "C.1_SRC": "Styles_files/unnamed(73).png"
   },
   {
     "Col0": "41",
     "A": "Ravepunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(74).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(75).png"
+    "B.1_SRC": "Styles_files/unnamed(74).png",
+    "C.1_SRC": "Styles_files/unnamed(75).png"
   },
   {
     "Col0": "42",
     "A": "Retropunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(76).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(77).png"
+    "B.1_SRC": "Styles_files/unnamed(76).png",
+    "C.1_SRC": "Styles_files/unnamed(77).png"
   },
   {
     "Col0": "43",
     "A": "Robopunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(78).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(79).png"
+    "B.1_SRC": "Styles_files/unnamed(78).png",
+    "C.1_SRC": "Styles_files/unnamed(79).png"
   },
   {
     "Col0": "44",
     "A": "Skatepunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(80).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(81).png"
+    "B.1_SRC": "Styles_files/unnamed(80).png",
+    "C.1_SRC": "Styles_files/unnamed(81).png"
   },
   {
     "Col0": "45",
     "A": "Skullpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(82).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(83).png"
+    "B.1_SRC": "Styles_files/unnamed(82).png",
+    "C.1_SRC": "Styles_files/unnamed(83).png"
   },
   {
     "Col0": "46",
     "A": "Soldierpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(84).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(85).png"
+    "B.1_SRC": "Styles_files/unnamed(84).png",
+    "C.1_SRC": "Styles_files/unnamed(85).png"
   },
   {
     "Col0": "47",
     "A": "Steampunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(86).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(87).png"
+    "B.1_SRC": "Styles_files/unnamed(86).png",
+    "C.1_SRC": "Styles_files/unnamed(87).png"
   },
   {
     "Col0": "48",
     "A": "Sugarpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(88).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(89).png"
+    "B.1_SRC": "Styles_files/unnamed(88).png",
+    "C.1_SRC": "Styles_files/unnamed(89).png"
   },
   {
     "Col0": "49",
     "A": "Synthpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(90).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(91).png"
+    "B.1_SRC": "Styles_files/unnamed(90).png",
+    "C.1_SRC": "Styles_files/unnamed(91).png"
   },
   {
     "Col0": "50",
     "A": "Trancepunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(92).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(93).png"
+    "B.1_SRC": "Styles_files/unnamed(92).png",
+    "C.1_SRC": "Styles_files/unnamed(93).png"
   },
   {
     "Col0": "51",
     "A": "Tribalpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(94).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(95).png"
+    "B.1_SRC": "Styles_files/unnamed(94).png",
+    "C.1_SRC": "Styles_files/unnamed(95).png"
   },
   {
     "Col0": "52",
     "A": "Viruspunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(96).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(97).png"
+    "B.1_SRC": "Styles_files/unnamed(96).png",
+    "C.1_SRC": "Styles_files/unnamed(97).png"
   },
   {
     "Col0": "53",
     "A": "Vampirepunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(98).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(99).png"
+    "B.1_SRC": "Styles_files/unnamed(98).png",
+    "C.1_SRC": "Styles_files/unnamed(99).png"
   },
   {
     "Col0": "54",
     "A": "Voodoopunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(100).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(101).png"
+    "B.1_SRC": "Styles_files/unnamed(100).png",
+    "C.1_SRC": "Styles_files/unnamed(101).png"
   },
   {
     "Col0": "55",
     "A": "Witchpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(102).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(103).png"
+    "B.1_SRC": "Styles_files/unnamed(102).png",
+    "C.1_SRC": "Styles_files/unnamed(103).png"
   },
   {
     "Col0": "56",
     "A": "Wolfpunk",
-    "B.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(104).png",
-    "C.1_SRC": "http://127.0.0.1:5500/Styles_files/unnamed(105).png"
+    "B.1_SRC": "Styles_files/unnamed(104).png",
+    "C.1_SRC": "Styles_files/unnamed(105).png"
   }
 ]
