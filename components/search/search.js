@@ -96,28 +96,48 @@ const Search = ({ onLogoClick }) => {
             return imageExtensions.some((extension) => filePath.toLowerCase().endsWith(extension));
           };
 
-          if (data[result]) {
+          if (data[result] && data[result].image) {
             return (
               <div className="item" key={id}>
                 {keys.map((key) => (
-                  <div key={key}>
+                  <span key={key}>
                     {/* {key}: {item[key]} */}
-                    {isImage(item[key]) && (
+
+                    {isImage(item[key]) ? (
                       <span className="poster">
-                        <div style={{ width: '100px' }}>{key}</div>
-                        {data[result].image && (
-                          <Image
-                            width={120}
-                            height={155}
-                            unoptimized={true}
-                            placeholder="blur"
-                            blurDataURL="/fav.png"
-                            alt={data[result].category}
-                            src={'data/' + item[key]}
-                            sizes="100vw"
-                          />
+                        {console.log(key)}
+                        {key == 'image' ? (
+                          <div className="artist-img">
+                            {data[result].image && (
+                              <Image
+                                width={120}
+                                height={155}
+                                unoptimized={true}
+                                placeholder="blur"
+                                blurDataURL="/fav.png"
+                                alt={data[result].category}
+                                src={'data/' + item[key]}
+                                sizes="100vw"
+                              />
+                            )}
+                          </div>
+                        ) : (
+                          data[result].image && (
+                            <Image
+                              width={120}
+                              height={155}
+                              unoptimized={true}
+                              placeholder="blur"
+                              blurDataURL="/fav.png"
+                              alt={data[result].category}
+                              src={'data/' + item[key]}
+                              sizes="100vw"
+                            />
+                          )
                         )}
                       </span>
+                    ) : (
+                      <span>{/* {item[key]} */}</span>
                     )}
                     {/* <div className="about">
                       <div>
@@ -129,7 +149,7 @@ const Search = ({ onLogoClick }) => {
                         </a>
                       </div>
                     </div> */}
-                  </div>
+                  </span>
                 ))}
                 {/* <div className="poster">
                   {data[result].image && (

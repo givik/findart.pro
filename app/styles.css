@@ -105,15 +105,28 @@ body {
   min-height: 200px;
 }
 
-.item:hover {
-  border-style: solid;
-  cursor: pointer;
-}
-
 .poster {
   float: left;
   height: auto;
-  width: auto;
+  margin-left: 15px;
+  border: 2px solid black;
+}
+
+.artist-img {
+  background-color: white;
+  padding: 10px;
+  -webkit-box-shadow: 7px 5px 0px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 7px 5px 0px 0px rgba(255, 255, 255, 0.75);
+  box-shadow: 7px 5px 0px 0px rgba(255, 255, 255, 0.75);
+}
+
+.poster:hover {
+  cursor: pointer;
+  zoom: 1.007;
+}
+
+.poster-title {
+  height: 44px;
 }
 
 .overview {
