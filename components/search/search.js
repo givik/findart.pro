@@ -99,6 +99,14 @@ const Search = ({ onLogoClick }) => {
           if (data[result] && data[result].image) {
             return (
               <div className="item" key={id}>
+                <div className="about">
+                  <div className="category-title">{data[result].category}</div>
+                  <div className="artist-title">
+                    <a href={data[result].link} target="_blank">
+                      {data[result].artist}
+                    </a>
+                  </div>
+                </div>
                 {keys.map((key) => (
                   <span key={key}>
                     {/* {key}: {item[key]} */}
@@ -139,42 +147,8 @@ const Search = ({ onLogoClick }) => {
                     ) : (
                       <span>{/* {item[key]} */}</span>
                     )}
-                    {/* <div className="about">
-                      <div>
-                        <strong>{data[result].category}</strong>
-                      </div>
-                      <div>
-                        <a href={data[result].link} target="_blank">
-                          <strong>{data[result].artist}</strong>
-                        </a>
-                      </div>
-                    </div> */}
                   </span>
                 ))}
-                {/* <div className="poster">
-                  {data[result].image && (
-                    <Image
-                      width={120}
-                      height={155}
-                      unoptimized={true}
-                      alt={data[result].category}
-                      src={'data/' + data[result].image}
-                      placeholder="blur"
-                      blurDataURL="/fav.png"
-                      sizes="100vw"
-                    />
-                  )}
-                </div>
-                <div className="about">
-                  <div>
-                    <strong>{data[result].category}</strong>
-                  </div>
-                  <div>
-                    <a href={data[result].link} target="_blank">
-                      <strong>{data[result].artist}</strong>
-                    </a>
-                  </div>
-                </div> */}
               </div>
             );
           }

@@ -120,6 +120,25 @@ body {
   box-shadow: 7px 5px 0px 0px rgba(255, 255, 255, 0.75);
 }
 
+.category-title {
+  font-weight: bold;
+  color: #dadada;
+}
+
+.artist-title {
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: default;
+}
+
+.artist-title a:link,
+.artist-title a:visited,
+.artist-title a:hover,
+.artist-title a:active {
+  color: #000000;
+  cursor: context-menu;
+}
+
 .poster:hover {
   cursor: pointer;
   zoom: 1.007;
