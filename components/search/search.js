@@ -2,6 +2,7 @@
 import { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
+import { Suspense } from 'react';
 
 let data = {};
 
@@ -71,52 +72,69 @@ const Search = ({ onLogoClick }) => {
 
   return (
     <>
-      <input
-        ref={inputRef}
-        value={query ? query : ''}
-        onChange={(e) => {
-          setQuery(e.target.value);
-          router.push('?query=' + e.target.value);
-        }}
-        type="text"
-        autoComplete="off"
-        placeholder="Search"
-        spellCheck="false"
-        id="search_field"
-      />
-      <div id="content">
-        {results.map((result, index) => {
-          const item = data[result];
-          const keys = Object.keys(item);
-          const id = 'id' + Math.random().toString(16).slice(2);
+      <Suspense>
+        <input
+          ref={inputRef}
+          value={query ? query : ''}
+          onChange={(e) => {
+            setQuery(e.target.value);
+            router.push('?query=' + e.target.value);
+          }}
+          type="text"
+          autoComplete="off"
+          placeholder="Search"
+          spellCheck="false"
+          id="search_field"
+        />
+        <div id="content">
+          {results.map((result, index) => {
+            const item = data[result];
+            const keys = Object.keys(item);
+            const id = 'id' + Math.random().toString(16).slice(2);
 
-          const isImage = (filePath) => {
-            const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.svg'];
+            const isImage = (filePath) => {
+              const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.svg'];
 
-            return imageExtensions.some((extension) => filePath.toLowerCase().endsWith(extension));
-          };
+              return imageExtensions.some((extension) =>
+                filePath.toLowerCase().endsWith(extension)
+              );
+            };
 
-          if (data[result] && data[result].image) {
-            return (
-              <div className="item" key={id}>
-                <div className="about">
-                  <div className="category-title">{data[result].category}</div>
-                  <div className="artist-title">
-                    <a href={data[result].link} target="_blank">
-                      {data[result].artist}
-                    </a>
+            if (data[result] && data[result].image) {
+              return (
+                <div className="item" key={id}>
+                  <div className="about">
+                    <div className="category-title">{data[result].category}</div>
+                    <div className="artist-title">
+                      <a href={data[result].link} target="_blank">
+                        {data[result].artist}
+                      </a>
+                    </div>
                   </div>
-                </div>
-                {keys.map((key) => (
-                  <span key={key}>
-                    {/* {key}: {item[key]} */}
+                  {keys.map((key) => (
+                    <span key={key}>
+                      {/* {key}: {item[key]} */}
 
-                    {isImage(item[key]) ? (
-                      <span className="poster">
-                        {console.log(key)}
-                        {key == 'image' ? (
-                          <div className="artist-img">
-                            {data[result].image && (
+                      {isImage(item[key]) ? (
+                        <span className="poster">
+                          {console.log(key)}
+                          {key == 'image' ? (
+                            <div className="artist-img">
+                              {data[result].image && (
+                                <Image
+                                  width={120}
+                                  height={155}
+                                  unoptimized={true}
+                                  placeholder="blur"
+                                  blurDataURL="/fav.png"
+                                  alt={data[result].category}
+                                  src={'data/' + item[key]}
+                                  sizes="100vw"
+                                />
+                              )}
+                            </div>
+                          ) : (
+                            data[result].image && (
                               <Image
                                 width={120}
                                 height={155}
@@ -127,33 +145,20 @@ const Search = ({ onLogoClick }) => {
                                 src={'data/' + item[key]}
                                 sizes="100vw"
                               />
-                            )}
-                          </div>
-                        ) : (
-                          data[result].image && (
-                            <Image
-                              width={120}
-                              height={155}
-                              unoptimized={true}
-                              placeholder="blur"
-                              blurDataURL="/fav.png"
-                              alt={data[result].category}
-                              src={'data/' + item[key]}
-                              sizes="100vw"
-                            />
-                          )
-                        )}
-                      </span>
-                    ) : (
-                      <span>{/* {item[key]} */}</span>
-                    )}
-                  </span>
-                ))}
-              </div>
-            );
-          }
-        })}
-      </div>
+                            )
+                          )}
+                        </span>
+                      ) : (
+                        <span>{/* {item[key]} */}</span>
+                      )}
+                    </span>
+                  ))}
+                </div>
+              );
+            }
+          })}
+        </div>
+      </Suspense>
     </>
   );
 };
