@@ -19,7 +19,7 @@ const Search = ({ onLogoClick }) => {
     const initializeIndex = async () => {
       try {
         const { Index } = await import('flexsearch');
-        const newIndex = new Index({ tokenize: 'forward' });
+        const newIndex = new Index({ tokenize: 'forward', enrich: true });
         setIndex(newIndex);
       } catch (error) {
         console.warn('FlexSearch Index instantiation failed:', error);
@@ -42,13 +42,16 @@ const Search = ({ onLogoClick }) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch('/data.json', { next: { revalidate: 99999 } });
+      const res = await fetch('data/Mj Artist Influence Reference Sheets/Cartoons, Comics.json', {
+        next: { revalidate: 99999 },
+      });
       const arrayRes = await res.json();
 
       arrayRes.forEach((item, curIndex) => {
         data[curIndex] = item;
         if (index) {
           index.add(parseInt(curIndex), item.category);
+          index.add(parseInt(curIndex), item.artist);
         }
       });
 
@@ -82,20 +85,60 @@ const Search = ({ onLogoClick }) => {
         id="search_field"
       />
       <div id="content">
-        {results.map((result) => {
+        {results.map((result, index) => {
+          const item = data[result];
+          const keys = Object.keys(item);
           const id = 'id' + Math.random().toString(16).slice(2);
+
+          const isImage = (filePath) => {
+            const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.svg'];
+
+            return imageExtensions.some((extension) => filePath.toLowerCase().endsWith(extension));
+          };
 
           if (data[result]) {
             return (
               <div className="item" key={id}>
-                <div className="poster">
+                {keys.map((key) => (
+                  <div key={key}>
+                    {/* {key}: {item[key]} */}
+                    {isImage(item[key]) && (
+                      <span className="poster">
+                        <div style={{ width: '100px' }}>{key}</div>
+                        {data[result].image && (
+                          <Image
+                            width={120}
+                            height={155}
+                            unoptimized={true}
+                            placeholder="blur"
+                            blurDataURL="/fav.png"
+                            alt={data[result].category}
+                            src={'data/' + item[key]}
+                            sizes="100vw"
+                          />
+                        )}
+                      </span>
+                    )}
+                    {/* <div className="about">
+                      <div>
+                        <strong>{data[result].category}</strong>
+                      </div>
+                      <div>
+                        <a href={data[result].link} target="_blank">
+                          <strong>{data[result].artist}</strong>
+                        </a>
+                      </div>
+                    </div> */}
+                  </div>
+                ))}
+                {/* <div className="poster">
                   {data[result].image && (
                     <Image
-                      width={200}
-                      height={300}
+                      width={120}
+                      height={155}
                       unoptimized={true}
                       alt={data[result].category}
-                      src={data[result].image}
+                      src={'data/' + data[result].image}
                       placeholder="blur"
                       blurDataURL="/fav.png"
                       sizes="100vw"
@@ -106,7 +149,12 @@ const Search = ({ onLogoClick }) => {
                   <div>
                     <strong>{data[result].category}</strong>
                   </div>
-                </div>
+                  <div>
+                    <a href={data[result].link} target="_blank">
+                      <strong>{data[result].artist}</strong>
+                    </a>
+                  </div>
+                </div> */}
               </div>
             );
           }
