@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
+  experimental: {
+    missingSuspenseWithCSRBailout: false,
+  },
   webpack: (config, { webpack, isServer, nextRuntime }) => {
     // Workaround for the following issue:
     // https://github.com/aws-amplify/amplify-js/issues/11030#issuecomment-1598207365
