@@ -119,7 +119,7 @@ const Search = ({ onLogoClick }) => {
                             {data[result].image && (
                               <Image
                                 width={120}
-                                height={155}
+                                height={180}
                                 unoptimized={true}
                                 placeholder="blur"
                                 blurDataURL="/fav.png"
@@ -133,7 +133,7 @@ const Search = ({ onLogoClick }) => {
                           data[result].image && (
                             <Image
                               width={120}
-                              height={155}
+                              height={180}
                               unoptimized={true}
                               placeholder="blur"
                               blurDataURL="/fav.png"
