@@ -1,14 +1,6 @@
 [
   {
     "category": "Time Periods Fashion",
-    "era": "Era",
-    "B": "\"full body portrait of a man, <time period> era\"",
-    "C": "\"full body color photograph of a woman, <time period> era\"",
-    "D": "\"fashion drawing of a stylish man, <time period> era\"",
-    "E": "\"fashion sketch of a woman wearing clothing from the <time period> era\""
-  },
-  {
-    "category": "Time Periods Fashion",
     "era": "Midjourney Left Blank in Prompt",
     "full body portrait of a man, <time period> era": "Time%20Periods%20Fashion_files/unnamed.png",
     "full body color photograph of a woman, <time period> era": "Time%20Periods%20Fashion_files/unnamed(1).png",

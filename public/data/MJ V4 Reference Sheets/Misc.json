@@ -1,136 +1,136 @@
 [
   {
-    "Col0": "2",
+    "category": "Misc",
     "A": "Original",
-    "B": "Artist",
-    "C": "Unique Prompt",
+    "artist": "Artist",
+    "unique prompt": "Unique Prompt",
     "D": "Midjourney",
     "E": "Result"
   },
   {
-    "Col0": "3",
-    "A.1_SRC": "Misc_files/unnamed.png",
-    "B": "Saul Bass",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Saul_Bass",
-    "C": "\"poster by\"",
-    "D.1_SRC": "Misc_files/unnamed(1).png",
-    "E.1_SRC": "Misc_files/unnamed(2).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed.png",
+    "artist": "Saul Bass",
+    "link": "https://en.wikipedia.org/wiki/Saul_Bass",
+    "unique prompt": "\"poster by\"",
+    "midjourney": "Misc_files/unnamed(1).png",
+    "result": "Misc_files/unnamed(2).png"
   },
   {
-    "Col0": "4",
-    "A.1_SRC": "Misc_files/unnamed(3).png",
-    "B": "Pieter Claesz",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Pieter_Claesz",
-    "C": "\"still life by\"",
-    "D.1_SRC": "Misc_files/unnamed(4).png",
-    "E.1_SRC": "Misc_files/unnamed(5).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed(3).png",
+    "artist": "Pieter Claesz",
+    "link": "https://en.wikipedia.org/wiki/Pieter_Claesz",
+    "unique prompt": "\"still life by\"",
+    "midjourney": "Misc_files/unnamed(4).png",
+    "result": "Misc_files/unnamed(5).png"
   },
   {
-    "Col0": "5",
-    "A.1_SRC": "Misc_files/unnamed(6).png",
-    "B": "M.C. Escher",
-    "B.1_HREF": "https://mcescher.com/",
-    "C": "\"staircase by\"",
-    "D.1_SRC": "Misc_files/unnamed(7).png",
-    "E.1_SRC": "Misc_files/unnamed(8).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed(6).png",
+    "artist": "M.C. Escher",
+    "link": "https://mcescher.com/",
+    "unique prompt": "\"staircase by\"",
+    "midjourney": "Misc_files/unnamed(7).png",
+    "result": "Misc_files/unnamed(8).png"
   },
   {
-    "Col0": "6",
-    "A.1_SRC": "Misc_files/unnamed(9).png",
-    "B": "Shepard Fairey",
-    "B.1_HREF": "https://obeygiant.com/",
-    "C": "\"poster by\"",
-    "D.1_SRC": "Misc_files/unnamed(1).png",
-    "E.1_SRC": "Misc_files/unnamed(10).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed(9).png",
+    "artist": "Shepard Fairey",
+    "link": "https://obeygiant.com/",
+    "unique prompt": "\"poster by\"",
+    "midjourney": "Misc_files/unnamed(1).png",
+    "result": "Misc_files/unnamed(10).png"
   },
   {
-    "Col0": "7",
-    "A.1_SRC": "Misc_files/unnamed(11).png",
-    "B": "Martin Johnson Heade",
-    "B.1_HREF": "https://www.martin-johnson-heade.org/",
-    "C": "\"flower painting by\"",
-    "D.1_SRC": "Misc_files/unnamed(12).png",
-    "E.1_SRC": "Misc_files/unnamed(13).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed(11).png",
+    "artist": "Martin Johnson Heade",
+    "link": "https://www.martin-johnson-heade.org/",
+    "unique prompt": "\"flower painting by\"",
+    "midjourney": "Misc_files/unnamed(12).png",
+    "result": "Misc_files/unnamed(13).png"
   },
   {
-    "Col0": "8",
-    "A.1_SRC": "Misc_files/unnamed(14).png",
-    "B": "Katsushika Hokusai",
-    "B.1_HREF": "https://www.katsushikahokusai.org/",
-    "C": "\"ocean by\"",
-    "D.1_SRC": "Misc_files/unnamed(15).png",
-    "E.1_SRC": "Misc_files/unnamed(16).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed(14).png",
+    "artist": "Katsushika Hokusai",
+    "link": "https://www.katsushikahokusai.org/",
+    "unique prompt": "\"ocean by\"",
+    "midjourney": "Misc_files/unnamed(15).png",
+    "result": "Misc_files/unnamed(16).png"
   },
   {
-    "Col0": "9",
-    "A.1_SRC": "Misc_files/unnamed(17).png",
-    "B": "Kris Kuksi",
-    "B.1_HREF": "https://www.kuksi.com/",
-    "C": "\"statue carving by\"",
-    "D.1_SRC": "Misc_files/unnamed(18).png",
-    "E.1_SRC": "Misc_files/unnamed(19).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed(17).png",
+    "artist": "Kris Kuksi",
+    "link": "https://www.kuksi.com/",
+    "unique prompt": "\"statue carving by\"",
+    "midjourney": "Misc_files/unnamed(18).png",
+    "result": "Misc_files/unnamed(19).png"
   },
   {
-    "Col0": "10",
-    "A.1_SRC": "Misc_files/unnamed(20).png",
-    "B": "Maria Sibylla Merian",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Maria_Sibylla_Merian",
-    "C": "\"butterfly drawing by\"",
-    "D.1_SRC": "Misc_files/unnamed(21).png",
-    "E.1_SRC": "Misc_files/unnamed(22).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed(20).png",
+    "artist": "Maria Sibylla Merian",
+    "link": "https://en.wikipedia.org/wiki/Maria_Sibylla_Merian",
+    "unique prompt": "\"butterfly drawing by\"",
+    "midjourney": "Misc_files/unnamed(21).png",
+    "result": "Misc_files/unnamed(22).png"
   },
   {
-    "Col0": "11",
-    "A.1_SRC": "Misc_files/unnamed(23).png",
-    "B": "William Morris",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/William_Morris",
-    "C": "\"pattern by\"",
-    "D.1_SRC": "Misc_files/unnamed(24).png",
-    "E.1_SRC": "Misc_files/unnamed(25).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed(23).png",
+    "artist": "William Morris",
+    "link": "https://en.wikipedia.org/wiki/William_Morris",
+    "unique prompt": "\"pattern by\"",
+    "midjourney": "Misc_files/unnamed(24).png",
+    "result": "Misc_files/unnamed(25).png"
   },
   {
-    "Col0": "12",
-    "A.1_SRC": "Misc_files/unnamed(26).png",
-    "B": "Marianne North",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Marianne_North",
-    "C": "\"floral bouquet by\"",
-    "D.1_SRC": "Misc_files/unnamed(27).png",
-    "E.1_SRC": "Misc_files/unnamed(28).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed(26).png",
+    "artist": "Marianne North",
+    "link": "https://en.wikipedia.org/wiki/Marianne_North",
+    "unique prompt": "\"floral bouquet by\"",
+    "midjourney": "Misc_files/unnamed(27).png",
+    "result": "Misc_files/unnamed(28).png"
   },
   {
-    "Col0": "13",
-    "A.1_SRC": "Misc_files/unnamed(29).png",
-    "B": "Abraham Ortelius",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Abraham_Ortelius",
-    "C": "\"map by\"",
-    "D.1_SRC": "Misc_files/unnamed(30).png",
-    "E.1_SRC": "Misc_files/unnamed(31).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed(29).png",
+    "artist": "Abraham Ortelius",
+    "link": "https://en.wikipedia.org/wiki/Abraham_Ortelius",
+    "unique prompt": "\"map by\"",
+    "midjourney": "Misc_files/unnamed(30).png",
+    "result": "Misc_files/unnamed(31).png"
   },
   {
-    "Col0": "14",
-    "A.1_SRC": "Misc_files/unnamed(32).png",
-    "B": "Theophile Steinlen",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Th%C3%A9ophile_Steinlen",
-    "C": "\"cat painting by\"",
-    "D.1_SRC": "Misc_files/unnamed(33).png",
-    "E.1_SRC": "Misc_files/unnamed(34).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed(32).png",
+    "artist": "Theophile Steinlen",
+    "link": "https://en.wikipedia.org/wiki/Th%C3%A9ophile_Steinlen",
+    "unique prompt": "\"cat painting by\"",
+    "midjourney": "Misc_files/unnamed(33).png",
+    "result": "Misc_files/unnamed(34).png"
   },
   {
-    "Col0": "15",
-    "A.1_SRC": "Misc_files/unnamed(35).png",
-    "B": "Louis Comfort Tiffany",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Louis_Comfort_Tiffany",
-    "C": "\"stained glass by\"",
-    "D.1_SRC": "Misc_files/unnamed(36).png",
-    "E.1_SRC": "Misc_files/unnamed(37).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed(35).png",
+    "artist": "Louis Comfort Tiffany",
+    "link": "https://en.wikipedia.org/wiki/Louis_Comfort_Tiffany",
+    "unique prompt": "\"stained glass by\"",
+    "midjourney": "Misc_files/unnamed(36).png",
+    "result": "Misc_files/unnamed(37).png"
   },
   {
-    "Col0": "16",
-    "A.1_SRC": "Misc_files/unnamed(38).png",
-    "B": "Rubem Valentim",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Rubem_Valentim",
-    "C": "\"symbol drawing by\"",
-    "D.1_SRC": "Misc_files/unnamed(39).png",
-    "E.1_SRC": "Misc_files/unnamed(40).png"
+    "category": "Misc",
+    "image": "Misc_files/unnamed(38).png",
+    "artist": "Rubem Valentim",
+    "link": "https://en.wikipedia.org/wiki/Rubem_Valentim",
+    "unique prompt": "\"symbol drawing by\"",
+    "midjourney": "Misc_files/unnamed(39).png",
+    "result": "Misc_files/unnamed(40).png"
   }
 ]

@@ -1,230 +1,230 @@
 [
   {
-    "Col0": "2",
-    "A": "Medium",
+    "category": "Print Media",
+    "medium": "Medium",
     "B": "\"of a woman\"",
     "C": "\"of a forest\""
   },
   {
-    "Col0": "3",
-    "A": "Midjourney\nLeft Blank in Prompt",
-    "B.1_SRC": "Print%20Media_files/unnamed.png",
-    "C.1_SRC": "Print%20Media_files/unnamed(1).png"
+    "category": "Print Media",
+    "medium": "Midjourney Left Blank in Prompt",
+    "<medium> of a woman": "Print%20Media_files/unnamed.png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(1).png"
   },
   {
-    "Col0": "4",
-    "A": "advertisement",
-    "B.1_SRC": "Print%20Media_files/unnamed(2).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(3).png"
+    "category": "Print Media",
+    "medium": "advertisement",
+    "<medium> of a woman": "Print%20Media_files/unnamed(2).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(3).png"
   },
   {
-    "Col0": "5",
-    "A": "anatomical drawing",
-    "B.1_SRC": "Print%20Media_files/unnamed(4).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(5).png"
+    "category": "Print Media",
+    "medium": "anatomical drawing",
+    "<medium> of a woman": "Print%20Media_files/unnamed(4).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(5).png"
   },
   {
-    "Col0": "6",
-    "A": "ancient scroll",
-    "B.1_SRC": "Print%20Media_files/unnamed(6).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(7).png"
+    "category": "Print Media",
+    "medium": "ancient scroll",
+    "<medium> of a woman": "Print%20Media_files/unnamed(6).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(7).png"
   },
   {
-    "Col0": "7",
-    "A": "blueprint",
-    "B.1_SRC": "Print%20Media_files/unnamed(8).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(9).png"
+    "category": "Print Media",
+    "medium": "blueprint",
+    "<medium> of a woman": "Print%20Media_files/unnamed(8).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(9).png"
   },
   {
-    "Col0": "8",
-    "A": "business card",
-    "B.1_SRC": "Print%20Media_files/unnamed(10).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(11).png"
+    "category": "Print Media",
+    "medium": "business card",
+    "<medium> of a woman": "Print%20Media_files/unnamed(10).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(11).png"
   },
   {
-    "Col0": "9",
-    "A": "catalog page",
-    "B.1_SRC": "Print%20Media_files/unnamed(12).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(13).png"
+    "category": "Print Media",
+    "medium": "catalog page",
+    "<medium> of a woman": "Print%20Media_files/unnamed(12).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(13).png"
   },
   {
-    "Col0": "10",
-    "A": "character sheet",
-    "B.1_SRC": "Print%20Media_files/unnamed(14).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(15).png"
+    "category": "Print Media",
+    "medium": "character sheet",
+    "<medium> of a woman": "Print%20Media_files/unnamed(14).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(15).png"
   },
   {
-    "Col0": "11",
-    "A": "coloring book",
-    "B.1_SRC": "Print%20Media_files/unnamed(16).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(17).png"
+    "category": "Print Media",
+    "medium": "coloring book",
+    "<medium> of a woman": "Print%20Media_files/unnamed(16).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(17).png"
   },
   {
-    "Col0": "12",
-    "A": "comic book",
-    "B.1_SRC": "Print%20Media_files/unnamed(18).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(19).png"
+    "category": "Print Media",
+    "medium": "comic book",
+    "<medium> of a woman": "Print%20Media_files/unnamed(18).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(19).png"
   },
   {
-    "Col0": "13",
-    "A": "election poster",
-    "B.1_SRC": "Print%20Media_files/unnamed(20).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(21).png"
+    "category": "Print Media",
+    "medium": "election poster",
+    "<medium> of a woman": "Print%20Media_files/unnamed(20).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(21).png"
   },
   {
-    "Col0": "14",
-    "A": "encyclopedia page",
-    "B.1_SRC": "Print%20Media_files/unnamed(22).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(23).png"
+    "category": "Print Media",
+    "medium": "encyclopedia page",
+    "<medium> of a woman": "Print%20Media_files/unnamed(22).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(23).png"
   },
   {
-    "Col0": "15",
-    "A": "engineering diagram",
-    "B.1_SRC": "Print%20Media_files/unnamed(24).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(25).png"
+    "category": "Print Media",
+    "medium": "engineering diagram",
+    "<medium> of a woman": "Print%20Media_files/unnamed(24).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(25).png"
   },
   {
-    "Col0": "16",
-    "A": "flyer",
-    "B.1_SRC": "Print%20Media_files/unnamed(26).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(27).png"
+    "category": "Print Media",
+    "medium": "flyer",
+    "<medium> of a woman": "Print%20Media_files/unnamed(26).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(27).png"
   },
   {
-    "Col0": "17",
-    "A": "graphic novel",
-    "B.1_SRC": "Print%20Media_files/unnamed(28).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(29).png"
+    "category": "Print Media",
+    "medium": "graphic novel",
+    "<medium> of a woman": "Print%20Media_files/unnamed(28).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(29).png"
   },
   {
-    "Col0": "18",
-    "A": "IKEA guide",
-    "B.1_SRC": "Print%20Media_files/unnamed(30).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(31).png"
+    "category": "Print Media",
+    "medium": "IKEA guide",
+    "<medium> of a woman": "Print%20Media_files/unnamed(30).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(31).png"
   },
   {
-    "Col0": "19",
-    "A": "illuminated manuscript",
-    "B.1_SRC": "Print%20Media_files/unnamed(32).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(33).png"
+    "category": "Print Media",
+    "medium": "illuminated manuscript",
+    "<medium> of a woman": "Print%20Media_files/unnamed(32).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(33).png"
   },
   {
-    "Col0": "20",
-    "A": "instruction manual",
-    "B.1_SRC": "Print%20Media_files/unnamed(34).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(35).png"
+    "category": "Print Media",
+    "medium": "instruction manual",
+    "<medium> of a woman": "Print%20Media_files/unnamed(34).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(35).png"
   },
   {
-    "Col0": "21",
-    "A": "logo",
-    "B.1_SRC": "Print%20Media_files/unnamed(36).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(37).png"
+    "category": "Print Media",
+    "medium": "logo",
+    "<medium> of a woman": "Print%20Media_files/unnamed(36).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(37).png"
   },
   {
-    "Col0": "22",
-    "A": "magazine",
-    "B.1_SRC": "Print%20Media_files/unnamed(38).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(39).png"
+    "category": "Print Media",
+    "medium": "magazine",
+    "<medium> of a woman": "Print%20Media_files/unnamed(38).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(39).png"
   },
   {
-    "Col0": "23",
-    "A": "\"Magic the Gathering\" card",
-    "B.1_SRC": "Print%20Media_files/unnamed(40).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(41).png"
+    "category": "Print Media",
+    "medium": "\"Magic the Gathering\" card",
+    "<medium> of a woman": "Print%20Media_files/unnamed(40).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(41).png"
   },
   {
-    "Col0": "24",
-    "A": "manuscript",
-    "B.1_SRC": "Print%20Media_files/unnamed(42).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(43).png"
+    "category": "Print Media",
+    "medium": "manuscript",
+    "<medium> of a woman": "Print%20Media_files/unnamed(42).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(43).png"
   },
   {
-    "Col0": "25",
-    "A": "map",
-    "B.1_SRC": "Print%20Media_files/unnamed(44).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(45).png"
+    "category": "Print Media",
+    "medium": "map",
+    "<medium> of a woman": "Print%20Media_files/unnamed(44).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(45).png"
   },
   {
-    "Col0": "26",
-    "A": "movie poster",
-    "B.1_SRC": "Print%20Media_files/unnamed(46).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(47).png"
+    "category": "Print Media",
+    "medium": "movie poster",
+    "<medium> of a woman": "Print%20Media_files/unnamed(46).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(47).png"
   },
   {
-    "Col0": "27",
-    "A": "pamphlet",
-    "B.1_SRC": "Print%20Media_files/unnamed(48).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(49).png"
+    "category": "Print Media",
+    "medium": "pamphlet",
+    "<medium> of a woman": "Print%20Media_files/unnamed(48).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(49).png"
   },
   {
-    "Col0": "28",
-    "A": "pop-up book",
-    "B.1_SRC": "Print%20Media_files/unnamed(50).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(51).png"
+    "category": "Print Media",
+    "medium": "pop-up book",
+    "<medium> of a woman": "Print%20Media_files/unnamed(50).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(51).png"
   },
   {
-    "Col0": "29",
-    "A": "postage stamp",
-    "B.1_SRC": "Print%20Media_files/unnamed(52).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(53).png"
+    "category": "Print Media",
+    "medium": "postage stamp",
+    "<medium> of a woman": "Print%20Media_files/unnamed(52).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(53).png"
   },
   {
-    "Col0": "30",
-    "A": "poster",
-    "B.1_SRC": "Print%20Media_files/unnamed(54).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(55).png"
+    "category": "Print Media",
+    "medium": "poster",
+    "<medium> of a woman": "Print%20Media_files/unnamed(54).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(55).png"
   },
   {
-    "Col0": "31",
-    "A": "propaganda poster",
-    "B.1_SRC": "Print%20Media_files/unnamed(56).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(57).png"
+    "category": "Print Media",
+    "medium": "propaganda poster",
+    "<medium> of a woman": "Print%20Media_files/unnamed(56).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(57).png"
   },
   {
-    "Col0": "32",
-    "A": "pulp novel",
-    "B.1_SRC": "Print%20Media_files/unnamed(58).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(59).png"
+    "category": "Print Media",
+    "medium": "pulp novel",
+    "<medium> of a woman": "Print%20Media_files/unnamed(58).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(59).png"
   },
   {
-    "Col0": "33",
-    "A": "schematic",
-    "B.1_SRC": "Print%20Media_files/unnamed(60).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(61).png"
+    "category": "Print Media",
+    "medium": "schematic",
+    "<medium> of a woman": "Print%20Media_files/unnamed(60).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(61).png"
   },
   {
-    "Col0": "34",
-    "A": "scientific drawing",
-    "B.1_SRC": "Print%20Media_files/unnamed(62).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(63).png"
+    "category": "Print Media",
+    "medium": "scientific drawing",
+    "<medium> of a woman": "Print%20Media_files/unnamed(62).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(63).png"
   },
   {
-    "Col0": "35",
-    "A": "sticker",
-    "B.1_SRC": "Print%20Media_files/unnamed(64).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(65).png"
+    "category": "Print Media",
+    "medium": "sticker",
+    "<medium> of a woman": "Print%20Media_files/unnamed(64).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(65).png"
   },
   {
-    "Col0": "36",
-    "A": "storyboard",
-    "B.1_SRC": "Print%20Media_files/unnamed(66).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(67).png"
+    "category": "Print Media",
+    "medium": "storyboard",
+    "<medium> of a woman": "Print%20Media_files/unnamed(66).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(67).png"
   },
   {
-    "Col0": "37",
-    "A": "travel poster",
-    "B.1_SRC": "Print%20Media_files/unnamed(68).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(69).png"
+    "category": "Print Media",
+    "medium": "travel poster",
+    "<medium> of a woman": "Print%20Media_files/unnamed(68).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(69).png"
   },
   {
-    "Col0": "38",
-    "A": "wall decal",
-    "B.1_SRC": "Print%20Media_files/unnamed(70).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(71).png"
+    "category": "Print Media",
+    "medium": "wall decal",
+    "<medium> of a woman": "Print%20Media_files/unnamed(70).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(71).png"
   },
   {
-    "Col0": "39",
-    "A": "woodblock print",
-    "B.1_SRC": "Print%20Media_files/unnamed(72).png",
-    "C.1_SRC": "Print%20Media_files/unnamed(73).png"
+    "category": "Print Media",
+    "medium": "woodblock print",
+    "<medium> of a woman": "Print%20Media_files/unnamed(72).png",
+    "<medium> of a forest": "Print%20Media_files/unnamed(73).png"
   }
 ]
