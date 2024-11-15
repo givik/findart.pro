@@ -96,7 +96,7 @@ const Search = ({ onLogoClick }) => {
             return imageExtensions.some((extension) => filePath.toLowerCase().endsWith(extension));
           };
 
-          if (data[result] && data[result].image) {
+          if (data[result]) {
             return (
               <div className="item" key={id}>
                 <div className="about">
@@ -113,7 +113,6 @@ const Search = ({ onLogoClick }) => {
 
                     {isImage(item[key]) ? (
                       <span className="poster">
-                        {console.log(key)}
                         {key == 'image' ? (
                           <div className="artist-img">
                             {data[result].image && (
@@ -130,18 +129,16 @@ const Search = ({ onLogoClick }) => {
                             )}
                           </div>
                         ) : (
-                          data[result].image && (
-                            <Image
-                              width={120}
-                              height={180}
-                              unoptimized={true}
-                              placeholder="blur"
-                              blurDataURL="/fav.png"
-                              alt={data[result].category}
-                              src={'data/' + item[key]}
-                              sizes="100vw"
-                            />
-                          )
+                          <Image
+                            width={120}
+                            height={180}
+                            unoptimized={true}
+                            placeholder="blur"
+                            blurDataURL="/fav.png"
+                            alt={data[result].category}
+                            src={'data/' + item[key]}
+                            sizes="100vw"
+                          />
                         )}
                       </span>
                     ) : (
