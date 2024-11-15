@@ -1,14 +1,6 @@
 [
   {
     "category": "Misc",
-    "A": "Original",
-    "artist": "Artist",
-    "unique prompt": "Unique Prompt",
-    "D": "Midjourney",
-    "E": "Result"
-  },
-  {
-    "category": "Misc",
     "image": "Misc_files/unnamed.png",
     "artist": "Saul Bass",
     "link": "https://en.wikipedia.org/wiki/Saul_Bass",

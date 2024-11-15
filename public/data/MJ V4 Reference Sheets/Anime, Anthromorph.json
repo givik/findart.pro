@@ -2,7 +2,7 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed.png",
-    "B": "Midjourney Left Blank in Prompt",
+    "artist": "Midjourney Left Blank in Prompt",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(1).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(2).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(3).png"
@@ -10,8 +10,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(4).png",
-    "B": "Yoshitaka Amano",
-    "B.1_HREF": "https://www.yoshitakaamano.com/",
+    "artist": "Yoshitaka Amano",
+    "link": "https://www.yoshitakaamano.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(5).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(6).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(7).png"
@@ -19,8 +19,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(8).png",
-    "B": "Hiromu Arakawa",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Hiromu_Arakawa",
+    "artist": "Hiromu Arakawa",
+    "link": "https://en.wikipedia.org/wiki/Hiromu_Arakawa",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(9).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(10).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(11).png"
@@ -28,8 +28,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(12).png",
-    "B": "Hirohiko Araki",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Hirohiko_Araki",
+    "artist": "Hirohiko Araki",
+    "link": "https://en.wikipedia.org/wiki/Hirohiko_Araki",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(13).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(14).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(15).png"
@@ -37,8 +37,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(16).png",
-    "B": "Artgerm",
-    "B.1_HREF": "https://artgerm.com/",
+    "artist": "Artgerm",
+    "link": "https://artgerm.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(17).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(18).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(19).png"
@@ -46,8 +46,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(20).png",
-    "B": "Don Bluth",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Don_Bluth",
+    "artist": "Don Bluth",
+    "link": "https://en.wikipedia.org/wiki/Don_Bluth",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(21).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(22).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(23).png"
@@ -55,8 +55,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(24).png",
-    "B": "Sam Bosma",
-    "B.1_HREF": "http://sambosma.com/",
+    "artist": "Sam Bosma",
+    "link": "http://sambosma.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(25).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(26).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(27).png"
@@ -64,8 +64,8 @@
   {
     "category": "Anime, Anthromorph",
     "A": "N/A",
-    "B": "cgsociety",
-    "B.1_HREF": "https://cgsociety.org/",
+    "artist": "cgsociety",
+    "link": "https://cgsociety.org/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(28).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(29).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(30).png"
@@ -73,8 +73,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(31).png",
-    "B": "Yanjun Cheng",
-    "B.1_HREF": "https://www.artstation.com/yjc",
+    "artist": "Yanjun Cheng",
+    "link": "https://www.artstation.com/yjc",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(32).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(33).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(34).png"
@@ -82,8 +82,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(35).png",
-    "B": "Craola",
-    "B.1_HREF": "https://gregsimkinsart.com/",
+    "artist": "Craola",
+    "link": "https://gregsimkinsart.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(36).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(37).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(38).png"
@@ -91,8 +91,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(39).png",
-    "B": "Krenz Cushart",
-    "B.1_HREF": "https://www.artstation.com/krenz",
+    "artist": "Krenz Cushart",
+    "link": "https://www.artstation.com/krenz",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(40).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(41).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(42).png"
@@ -100,8 +100,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(43).png",
-    "B": "Tony DiTerlizzi",
-    "B.1_HREF": "https://diterlizzi.com/",
+    "artist": "Tony DiTerlizzi",
+    "link": "https://diterlizzi.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(44).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(45).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(46).png"
@@ -109,8 +109,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(47).png",
-    "B": "Studio Ghibli",
-    "B.1_HREF": "https://ghiblicollection.com/",
+    "artist": "Studio Ghibli",
+    "link": "https://ghiblicollection.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(48).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(49).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(50).png"
@@ -118,8 +118,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(51).png",
-    "B": "Tomer Hanuka",
-    "B.1_HREF": "http://thanuka.com/",
+    "artist": "Tomer Hanuka",
+    "link": "http://thanuka.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(52).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(53).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(54).png"
@@ -127,8 +127,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(55).png",
-    "B": "Ryohei Hase",
-    "B.1_HREF": "https://www.deviantart.com/ryohei-hase",
+    "artist": "Ryohei Hase",
+    "link": "https://www.deviantart.com/ryohei-hase",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(56).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(57).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(58).png"
@@ -136,8 +136,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(59).png",
-    "B": "Miho Hirano",
-    "B.1_HREF": "https://mihohirano.mystrikingly.com/",
+    "artist": "Miho Hirano",
+    "link": "https://mihohirano.mystrikingly.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(60).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(61).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(62).png"
@@ -145,8 +145,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(63).png",
-    "B": "Takehiko Inoue",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Takehiko_Inoue",
+    "artist": "Takehiko Inoue",
+    "link": "https://en.wikipedia.org/wiki/Takehiko_Inoue",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(64).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(65).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(66).png"
@@ -154,8 +154,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(67).png",
-    "B": "Alexander Jansson",
-    "B.1_HREF": "https://alexanderjansson.com/",
+    "artist": "Alexander Jansson",
+    "link": "https://alexanderjansson.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(68).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(69).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(70).png"
@@ -163,8 +163,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(71).png",
-    "B": "Ruan Jia",
-    "B.1_HREF": "https://www.artstation.com/ruanjia",
+    "artist": "Ruan Jia",
+    "link": "https://www.artstation.com/ruanjia",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(72).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(73).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(74).png"
@@ -172,8 +172,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(75).png",
-    "B": "Audrey Kawasaki",
-    "B.1_HREF": "https://www.audkawa.com/",
+    "artist": "Audrey Kawasaki",
+    "link": "https://www.audkawa.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(76).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(77).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(78).png"
@@ -181,8 +181,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(79).png",
-    "B": "Brian Kesinger",
-    "B.1_HREF": "https://www.briankesinger.com/",
+    "artist": "Brian Kesinger",
+    "link": "https://www.briankesinger.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(80).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(81).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(82).png"
@@ -190,8 +190,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(83).png",
-    "B": "Jon Klassen",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Jon_Klassen",
+    "artist": "Jon Klassen",
+    "link": "https://en.wikipedia.org/wiki/Jon_Klassen",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(84).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(85).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(86).png"
@@ -199,8 +199,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(87).png",
-    "B": "Bryan Konietzko",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Bryan_Konietzko",
+    "artist": "Bryan Konietzko",
+    "link": "https://en.wikipedia.org/wiki/Bryan_Konietzko",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(88).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(89).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(90).png"
@@ -208,8 +208,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(91).png",
-    "B": "Ilya Kuvshinov",
-    "B.1_HREF": "https://www.artstation.com/kuvshinov_ilya",
+    "artist": "Ilya Kuvshinov",
+    "link": "https://www.artstation.com/kuvshinov_ilya",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(92).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(93).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(94).png"
@@ -217,8 +217,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(95).png",
-    "B": "Michal Lisowski",
-    "B.1_HREF": "https://www.artstation.com/lisu",
+    "artist": "Michal Lisowski",
+    "link": "https://www.artstation.com/lisu",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(96).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(97).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(98).png"
@@ -226,8 +226,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(99).png",
-    "B": "Cory Loftis",
-    "B.1_HREF": "https://www.artstation.com/coryloftis",
+    "artist": "Cory Loftis",
+    "link": "https://www.artstation.com/coryloftis",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(100).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(101).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(102).png"
@@ -235,8 +235,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(103).png",
-    "B": "Taiyō Matsumoto",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Taiy%C5%8D_Matsumoto",
+    "artist": "Taiyō Matsumoto",
+    "link": "https://en.wikipedia.org/wiki/Taiy%C5%8D_Matsumoto",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(104).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(105).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(106).png"
@@ -244,8 +244,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(107).png",
-    "B": "Shigeru Mizuki",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Shigeru_Mizuki",
+    "artist": "Shigeru Mizuki",
+    "link": "https://en.wikipedia.org/wiki/Shigeru_Mizuki",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(108).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(109).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(110).png"
@@ -253,8 +253,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(111).png",
-    "B": "Jean-Baptiste Monge",
-    "B.1_HREF": "https://www.jbmonge.com/",
+    "artist": "Jean-Baptiste Monge",
+    "link": "https://www.jbmonge.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(112).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(113).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(114).png"
@@ -262,8 +262,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(115).png",
-    "B": "Tsutomu Nihei",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Tsutomu_Nihei",
+    "artist": "Tsutomu Nihei",
+    "link": "https://en.wikipedia.org/wiki/Tsutomu_Nihei",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(116).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(117).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(118).png"
@@ -271,8 +271,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(119).png",
-    "B": "Beatrix Potter",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Beatrix_Potter",
+    "artist": "Beatrix Potter",
+    "link": "https://en.wikipedia.org/wiki/Beatrix_Potter",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(120).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(121).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(122).png"
@@ -280,8 +280,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(123).png",
-    "B": "Masaaki Sasamoto",
-    "B.1_HREF": "https://www.instagram.com/masaakisasamoto/?hl=en",
+    "artist": "Masaaki Sasamoto",
+    "link": "https://www.instagram.com/masaakisasamoto/?hl=en",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(124).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(125).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(126).png"
@@ -289,8 +289,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(127).png",
-    "B": "Yoji Shinkawa",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Yoji_Shinkawa",
+    "artist": "Yoji Shinkawa",
+    "link": "https://en.wikipedia.org/wiki/Yoji_Shinkawa",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(128).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(129).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(130).png"
@@ -298,8 +298,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(131).png",
-    "B": "Masamune Shirow",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Masamune_Shirow",
+    "artist": "Masamune Shirow",
+    "link": "https://en.wikipedia.org/wiki/Masamune_Shirow",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(132).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(133).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(134).png"
@@ -307,8 +307,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(135).png",
-    "B": "Jillian Tamaki",
-    "B.1_HREF": "https://www.jilliantamaki.com/",
+    "artist": "Jillian Tamaki",
+    "link": "https://www.jilliantamaki.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(136).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(137).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(138).png"
@@ -316,8 +316,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(139).png",
-    "B": "Genndy Tartakovsky",
-    "B.1_HREF": "https://en.wikipedia.org/wiki/Genndy_Tartakovsky",
+    "artist": "Genndy Tartakovsky",
+    "link": "https://en.wikipedia.org/wiki/Genndy_Tartakovsky",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(140).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(141).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(142).png"
@@ -325,8 +325,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(143).png",
-    "B": "Osamu Tezuka",
-    "B.1_HREF": "https://tezukaosamu.net/en/",
+    "artist": "Osamu Tezuka",
+    "link": "https://tezukaosamu.net/en/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(144).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(145).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(146).png"
@@ -334,8 +334,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(147).png",
-    "B": "Karl Thiart",
-    "B.1_HREF": "https://www.artstation.com/karlthiart",
+    "artist": "Karl Thiart",
+    "link": "https://www.artstation.com/karlthiart",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(148).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(149).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(150).png"
@@ -343,8 +343,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(151).png",
-    "B": "Ross Tran",
-    "B.1_HREF": "https://rossdraws.com/",
+    "artist": "Ross Tran",
+    "link": "https://rossdraws.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(152).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(153).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(154).png"
@@ -352,8 +352,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(155).png",
-    "B": "Takato Yamamoto",
-    "B.1_HREF": "https://www.instagram.com/takatoy999/?hl=en",
+    "artist": "Takato Yamamoto",
+    "link": "https://www.instagram.com/takatoy999/?hl=en",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(156).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(157).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(158).png"
@@ -361,8 +361,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(159).png",
-    "B": "Akihiko Yoshida",
-    "B.1_HREF": "https://www.facebook.com/YoshidaSquareEnix",
+    "artist": "Akihiko Yoshida",
+    "link": "https://www.facebook.com/YoshidaSquareEnix",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(160).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(161).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(162).png"
@@ -370,8 +370,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(163).png",
-    "B": "Yuumei",
-    "B.1_HREF": "https://www.yuumeiart.com/",
+    "artist": "Yuumei",
+    "link": "https://www.yuumeiart.com/",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(164).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(165).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(166).png"
@@ -379,8 +379,8 @@
   {
     "category": "Anime, Anthromorph",
     "image": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(167).png",
-    "B": "Fenghua Zhong",
-    "B.1_HREF": "https://www.artstation.com/fenghuazhong",
+    "artist": "Fenghua Zhong",
+    "link": "https://www.artstation.com/fenghuazhong",
     "anime character by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(168).png",
     "manga kitsune woman by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(169).png",
     "mouse warrior by": "MJ%20V4%20Reference%20Sheets/Anime,%20Anthromorph_files/unnamed(170).png"

@@ -1,12 +1,6 @@
 [
   {
     "category": "Mediums, Techniques",
-    "medium": "Medium",
-    "B": "\"<medium> art of a woman\"",
-    "C": "\"<medium> art of a forest\""
-  },
-  {
-    "category": "Mediums, Techniques",
     "medium": "Midjourney Left Blank in Prompt",
     "<medium> art of a woman": "Mediums,%20Techniques_files/unnamed.png",
     "<medium> art of a forest": "Mediums,%20Techniques_files/unnamed(1).png"
