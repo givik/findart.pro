@@ -42,7 +42,7 @@ const Search = ({ onLogoClick }) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch('data/Mj Artist Influence Reference Sheets/Cartoons, Comics.json', {
+      const res = await fetch('data_new.json', {
         next: { revalidate: 99999 },
       });
       const arrayRes = await res.json();
