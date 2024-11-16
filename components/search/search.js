@@ -69,6 +69,20 @@ const Search = ({ onLogoClick }) => {
     }
   }, [index, query]);
 
+  // Memoized RenderImage component
+  const RenderImage = React.memo(({ width, height, src, alt }) => (
+    <Image
+      width={width}
+      height={height}
+      unoptimized={true}
+      placeholder="blur"
+      blurDataURL="/fav.png"
+      alt={alt}
+      src={src}
+      sizes="100vw"
+    />
+  ));
+
   return (
     <>
       <input
@@ -95,20 +109,6 @@ const Search = ({ onLogoClick }) => {
 
             return imageExtensions.some((extension) => filePath.toLowerCase().endsWith(extension));
           };
-
-          // Memoized RenderImage component
-          const RenderImage = React.memo(({ width, height, src, alt }) => (
-            <Image
-              width={width}
-              height={height}
-              unoptimized={true}
-              placeholder="blur"
-              blurDataURL="/fav.png"
-              alt={alt}
-              src={src}
-              sizes="100vw"
-            />
-          ));
 
           if (data[result]) {
             return (
