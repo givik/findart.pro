@@ -83,6 +83,8 @@ const Search = ({ onLogoClick }) => {
     />
   ));
 
+  RenderImage.displayName = 'RenderImage';
+
   return (
     <>
       <input
