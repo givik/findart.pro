@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 
@@ -96,6 +96,20 @@ const Search = ({ onLogoClick }) => {
             return imageExtensions.some((extension) => filePath.toLowerCase().endsWith(extension));
           };
 
+          // Memoized RenderImage component
+          const RenderImage = React.memo(({ width, height, src, alt }) => (
+            <Image
+              width={width}
+              height={height}
+              unoptimized={true}
+              placeholder="blur"
+              blurDataURL="/fav.png"
+              alt={alt}
+              src={src}
+              sizes="100vw"
+            />
+          ));
+
           if (data[result]) {
             return (
               <div className="item" key={id}>
@@ -107,45 +121,33 @@ const Search = ({ onLogoClick }) => {
                     </a>
                   </div>
                 </div>
-                {keys.map((key) => (
-                  <span key={key}>
-                    {/* {key}: {item[key]} */}
 
-                    {isImage(item[key]) ? (
-                      <span className="poster">
-                        {key == 'image' ? (
-                          <div className="artist-img">
-                            {data[result].image && (
-                              <Image
-                                width={120}
-                                height={180}
-                                unoptimized={true}
-                                placeholder="blur"
-                                blurDataURL="/fav.png"
-                                alt={data[result].category}
-                                src={'data/' + item[key]}
-                                sizes="100vw"
-                              />
-                            )}
-                          </div>
-                        ) : (
-                          <Image
-                            width={120}
-                            height={180}
-                            unoptimized={true}
-                            placeholder="blur"
-                            blurDataURL="/fav.png"
-                            alt={data[result].category}
-                            src={'data/' + item[key]}
-                            sizes="100vw"
-                          />
-                        )}
-                      </span>
-                    ) : (
-                      <span>{/* {item[key]} */}</span>
-                    )}
-                  </span>
-                ))}
+                {keys.map((key) => {
+                  const value = item[key];
+                  const category = data[result]?.category;
+
+                  const isImageValue = isImage(value);
+                  if (!isImageValue) return <span key={key}>{/* {item[key]} */}</span>;
+
+                  const imageSrc = `data/${value}`;
+                  const imageAlt = category;
+
+                  // Reuse defaultDimensions for non-photographers
+                  const defaultDimensions = { width: 120, height: 180 };
+                  const imageDimensions =
+                    category === 'Photographers' ? { width: 580, height: 145 } : defaultDimensions;
+
+                  return (
+                    <span key={key} className="poster">
+                      <RenderImage
+                        width={imageDimensions.width}
+                        height={imageDimensions.height}
+                        src={imageSrc}
+                        alt={imageAlt}
+                      />
+                    </span>
+                  );
+                })}
               </div>
             );
           }
