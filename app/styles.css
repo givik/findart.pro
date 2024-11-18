@@ -106,8 +106,6 @@ body {
 }
 
 .poster {
-  float: left;
-  height: auto;
   margin-left: 15px;
   border: 2px solid black;
 }
@@ -147,6 +145,14 @@ body {
 .poster-title {
   height: 44px;
 }
+
+/* .item-col-img {
+  float: left;
+}
+
+.item-col-prompt {
+  float: left;
+} */
 
 .overview {
   font-size: 12px;

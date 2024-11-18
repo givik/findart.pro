@@ -50,8 +50,8 @@ const Search = ({ onLogoClick }) => {
       arrayRes.forEach((item, curIndex) => {
         data[curIndex] = item;
         if (index) {
-          index.add(parseInt(curIndex), item.category);
           index.add(parseInt(curIndex), item.artist);
+          index.add(parseInt(curIndex), item.category);
         }
       });
 
@@ -70,7 +70,7 @@ const Search = ({ onLogoClick }) => {
   }, [index, query]);
 
   // Memoized RenderImage component
-  const RenderImage = React.memo(({ width, height, src, alt }) => (
+  const RenderImage = React.memo(({ width, height, src, alt, className }) => (
     <Image
       width={width}
       height={height}
@@ -80,6 +80,7 @@ const Search = ({ onLogoClick }) => {
       alt={alt}
       src={src}
       sizes="100vw"
+      className={className}
     />
   ));
 
@@ -123,33 +124,72 @@ const Search = ({ onLogoClick }) => {
                     </a>
                   </div>
                 </div>
+                {console.log('keys', keys)}
+                {/* //! HERE GOES !// */}
+                {keys
+                  // .slice()
+                  // .reverse()
+                  .map((key, index) => {
+                    const value = data[result][key];
+                    const category = data[result]?.category;
 
-                {keys.map((key) => {
-                  const value = item[key];
-                  const category = data[result]?.category;
+                    const isImageValue = isImage(value);
+                    const imageAlt = category;
+                    let imageSrc = null;
 
-                  const isImageValue = isImage(value);
-                  if (!isImageValue) return <span key={key}>{/* {item[key]} */}</span>;
+                    if (isImageValue) imageSrc = `data/${value}`;
 
-                  const imageSrc = `data/${value}`;
-                  const imageAlt = category;
+                    // Reuse defaultDimensions for non-photographers
+                    const imageDimensions =
+                      category === 'Photographers'
+                        ? { width: 580, height: 145 }
+                        : { width: 120, height: 180 };
 
-                  // Reuse defaultDimensions for non-photographers
-                  const defaultDimensions = { width: 120, height: 180 };
-                  const imageDimensions =
-                    category === 'Photographers' ? { width: 580, height: 145 } : defaultDimensions;
+                    // console.log('\nkey', key, '\nitem[key]', item[key]);
+                    if (isImageValue)
+                      return (
+                        <span key={key} className="poster">
+                          <div className="item-col-img">
+                            <RenderImage
+                              className="artist-img"
+                              width={imageDimensions.width}
+                              height={imageDimensions.height}
+                              src={imageSrc}
+                              alt={imageAlt}
+                            />
+                          </div>
+                          <div className="item-col-img-prompt">{key}</div>
 
-                  return (
-                    <span key={key} className="poster">
-                      <RenderImage
-                        width={imageDimensions.width}
-                        height={imageDimensions.height}
-                        src={imageSrc}
-                        alt={imageAlt}
-                      />
-                    </span>
-                  );
-                })}
+                          {/* {data[result].image ? (
+                          <>
+                            <div className="item-col-img">
+                              <RenderImage
+                                className="artist-img"
+                                width={imageDimensions.width}
+                                height={imageDimensions.height}
+                                src={imageSrc}
+                                alt={imageAlt}
+                              />
+                            </div>
+                            <div className="item-col-img-prompt">{key}</div>
+                          </>
+                        ) : (
+                          <>
+                            <div className="item-col-img">
+                              <RenderImage
+                                width={imageDimensions.width}
+                                height={imageDimensions.height}
+                                src={imageSrc}
+                                alt={imageAlt}
+                              />{' '}
+                            </div>
+                            <div className="item-col-img-prompt">{key}</div>
+                          </>
+                        )} */}
+                        </span>
+                      );
+                  })}
+                {/* //! HERE GOES !// */}
               </div>
             );
           }
