@@ -50,8 +50,8 @@ const Search = ({ onLogoClick }) => {
       arrayRes.forEach((item, curIndex) => {
         data[curIndex] = item;
         if (index) {
-          index.add(parseInt(curIndex), item.artist);
           index.add(parseInt(curIndex), item.category);
+          // index.add(parseInt(curIndex), item.artist);
         }
       });
 
@@ -149,16 +149,15 @@ const Search = ({ onLogoClick }) => {
                     if (isImageValue)
                       return (
                         <span key={key} className="poster">
-                          <div className="item-col-img">
-                            <RenderImage
-                              className="artist-img"
-                              width={imageDimensions.width}
-                              height={imageDimensions.height}
-                              src={imageSrc}
-                              alt={imageAlt}
-                            />
-                          </div>
-                          <div className="item-col-img-prompt">{key}</div>
+                          <RenderImage
+                            className="artist-img"
+                            width={imageDimensions.width}
+                            height={imageDimensions.height}
+                            src={imageSrc}
+                            alt={imageAlt}
+                          />
+                          <div className="item-col-img"></div> */}
+                          {/* <div className="item-col-img-prompt">{key}</div>
 
                           {/* {data[result].image ? (
                           <>

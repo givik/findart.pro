@@ -123,6 +123,16 @@ body {
   color: #dadada;
 }
 
+.tab-name {
+  padding: '20px';
+  display: 'inline-block';
+  float: 'left';
+  margin-right: '10px';
+  margin-left: 10px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
 .artist-title {
   font-weight: bold;
   margin-top: 10px;

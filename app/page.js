@@ -1,19 +1,13 @@
 'use client';
-import Image from 'next/image';
-import Search from '../components/search/search';
-
-import { Suspense } from 'react';
+import Link from 'next/link';
+import TabsLayout from './cat/layout';
 
 const App = () => {
   const onLogoClick = () => {};
 
   return (
     <main>
-      <Suspense>
-        <Search />
-      </Suspense>
-      {/* <div id="container">Thank You</div> */}
-      <br />
+      <TabsLayout />
     </main>
   );
 };
