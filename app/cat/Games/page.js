@@ -8,7 +8,7 @@ const Tab1Page = () => {
   useEffect(() => {
     const fetchHtmlInChunks = async () => {
       try {
-        const res = await fetch('/data/Characters.htm'); // Path to your HTML file
+        const res = await fetch('/data/Games.htm'); // Path to your HTML file
         const reader = res.body.getReader();
         const decoder = new TextDecoder();
         let done = false;
@@ -43,7 +43,7 @@ const Tab1Page = () => {
           overflow: 'auto', // Enable scrolling
           height: '100vh',
           border: '1px solid #ccc',
-          paddingBottom: '100px',
+          marginBottom: '100px',
         }}
         dangerouslySetInnerHTML={{ __html: htmlContent }}
       />

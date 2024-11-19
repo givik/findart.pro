@@ -8,7 +8,7 @@ const Tab1Page = () => {
   useEffect(() => {
     const fetchHtmlInChunks = async () => {
       try {
-        const res = await fetch('/data/Characters.htm'); // Path to your HTML file
+        const res = await fetch('/data/Creatures.htm'); // Path to your HTML file
         const reader = res.body.getReader();
         const decoder = new TextDecoder();
         let done = false;
