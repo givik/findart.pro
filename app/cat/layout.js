@@ -42,6 +42,7 @@ const TabsLayout = ({ children }) => {
           maxWidth: '70%',
           marginLeft: 'auto',
           marginRight: 'auto',
+          fontSize: '21px',
         }}
       >
         {cats.map((cat) => (
@@ -52,6 +53,7 @@ const TabsLayout = ({ children }) => {
             style={{
               borderBottom: pathname === cat.path ? '2px solid blue' : 'none',
               color: pathname === cat.path ? 'blue' : 'black',
+              margin: '10px',
             }}
           >
             {cat.label}
