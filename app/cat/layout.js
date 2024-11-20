@@ -6,6 +6,8 @@ import Link from 'next/link';
 import { Suspense } from 'react';
 // import Search from '../../components/search/search';
 
+import styles from './styles.css';
+
 const TabsLayout = ({ children }) => {
   const pathname = usePathname(); // Get the current pathname
 
@@ -19,7 +21,7 @@ const TabsLayout = ({ children }) => {
     { label: 'Mediums, Techniques', path: '/cat/Mediums,Techniques' },
     { label: 'Misc', path: '/cat/Misc' },
     { label: 'Paintings', path: '/cat/Paintings' },
-    { label: 'Photohgraphers', path: '/cat/Photohgraphers' },
+    { label: 'Photohgraphers', path: '/cat/Photographers' },
     { label: 'Print Media', path: '/cat/Print-Media' },
     { label: 'Sci-fi', path: '/cat/Sci-fi' },
     { label: 'Styles', path: '/cat/Styles' },

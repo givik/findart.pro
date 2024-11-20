@@ -36,7 +36,7 @@ const Tab1Page = () => {
 
   return (
     <div>
-      <h1>HTML File Content</h1>
+      <h1>Creatures</h1>
       {loading ? <p>Loading...</p> : null}
       <div
         style={{

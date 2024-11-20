@@ -1,0 +1,23 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1; /* Ensures header is above other content */
+}
+
+th,
+td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+tbody {
+  height: 200px;
+  overflow-y: auto;
+}

@@ -8,7 +8,7 @@ const Tab1Page = () => {
   useEffect(() => {
     const fetchHtmlInChunks = async () => {
       try {
-        const res = await fetch('/data/Characters.htm'); // Path to your HTML file
+        const res = await fetch('/data/Landscapes.htm'); // Path to your HTML file
         const reader = res.body.getReader();
         const decoder = new TextDecoder();
         let done = false;
@@ -36,7 +36,7 @@ const Tab1Page = () => {
 
   return (
     <div>
-      <h1>HTML File Content</h1>
+      <h1>Landscapes</h1>
       {loading ? <p>Loading...</p> : null}
       <div
         style={{
