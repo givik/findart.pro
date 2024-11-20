@@ -156,7 +156,7 @@ const Search = ({ onLogoClick }) => {
                             src={imageSrc}
                             alt={imageAlt}
                           />
-                          <div className="item-col-img"></div> */}
+                          <div className="item-col-img"></div>
                           {/* <div className="item-col-img-prompt">{key}</div>
 
                           {/* {data[result].image ? (
