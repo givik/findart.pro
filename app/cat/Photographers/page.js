@@ -36,7 +36,6 @@ const Tab1Page = () => {
 
   return (
     <div>
-      <h1>Photographers</h1>
       {loading ? <p>Loading...</p> : null}
       <div
         style={{

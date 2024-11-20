@@ -21,3 +21,9 @@ tbody {
   height: 200px;
   overflow-y: auto;
 }
+
+.tab-name {
+  background: #ccc;
+  white-space: nowrap;
+  display: inline-block;
+}

@@ -51,8 +51,9 @@ const TabsLayout = ({ children }) => {
             href={cat.path}
             className="tab-name"
             style={{
-              borderBottom: pathname === cat.path ? '2px solid blue' : 'none',
-              color: pathname === cat.path ? 'blue' : 'black',
+              borderBottom: pathname === cat.path ? '2px solid red' : 'none',
+              color: pathname === cat.path ? 'white' : 'black',
+              background: pathname === cat.path ? 'black' : 'white',
               margin: '10px',
             }}
           >
