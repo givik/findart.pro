@@ -21,7 +21,7 @@ const TabsLayout = ({ children }) => {
     { label: 'Mediums, Techniques', path: '/cat/Mediums,Techniques' },
     { label: 'Misc', path: '/cat/Misc' },
     { label: 'Paintings', path: '/cat/Paintings' },
-    { label: 'Photohgraphers', path: '/cat/Photographers' },
+    { label: 'Photographers', path: '/cat/Photographers' },
     { label: 'Print Media', path: '/cat/Print-Media' },
     { label: 'Sci-fi', path: '/cat/Sci-fi' },
     { label: 'Styles', path: '/cat/Styles' },
