@@ -35,6 +35,7 @@ const TabsLayout = ({ children }) => {
           <Search />
         </Suspense> */}
       </div>
+      <h1>Fast and Simple Access to AI Art Prompts</h1>
       <div
         style={{
           cursor: 'pointer',
