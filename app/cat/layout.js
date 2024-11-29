@@ -7,6 +7,7 @@ import { Suspense } from 'react';
 // import Search from '../../components/search/search';
 
 import styles from './styles.css';
+import { relative } from 'path';
 
 const TabsLayout = ({ children }) => {
   const pathname = usePathname(); // Get the current pathname
@@ -35,12 +36,10 @@ const TabsLayout = ({ children }) => {
           <Search />
         </Suspense> */}
       </div>
-      <h1>Fast and Simple Access to AI Art Prompts</h1>
       <div
         style={{
           cursor: 'pointer',
-          marginBottom: '20px',
-          maxWidth: '70%',
+          maxWidth: '100%',
           marginLeft: 'auto',
           marginRight: 'auto',
           fontSize: '21px',
