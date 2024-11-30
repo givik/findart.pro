@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   experimental: {
-    missingSuspenseWithCSRBailout: false,
+    // missingSuspenseWithCSRBailout: false,
   },
   webpack: (config, { webpack, isServer, nextRuntime }) => {
     // Workaround for the following issue:

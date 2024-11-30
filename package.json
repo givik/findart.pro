@@ -19,6 +19,7 @@
     "deploy": "node deploy.mjs"
   },
   "dependencies": {
+    "@hotjar/browser": "^1.0.9",
     "@remotion/bundler": "^4.0.19",
     "@remotion/cli": "^4.0.19",
     "@remotion/google-fonts": "^4.0.19",
