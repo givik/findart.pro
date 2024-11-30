@@ -1,9 +1,14 @@
 // appcat/layout.js
 'use client'; // Mark this as a client-side component
 
+import Hotjar from '@hotjar/browser';
+
+const siteId = 5226468;
+const hotjarVersion = 6;
+
 import { usePathname } from 'next/navigation'; // Use usePathname from next/navigation
 import Link from 'next/link';
-import { Suspense } from 'react';
+import { Suspense, useEffect } from 'react';
 // import Search from '../../components/search/search';
 
 import styles from './styles.css';
@@ -11,6 +16,10 @@ import { relative } from 'path';
 
 const TabsLayout = ({ children }) => {
   const pathname = usePathname(); // Get the current pathname
+
+  useEffect(() => {
+    Hotjar.init(siteId, hotjarVersion);
+  }, []);
 
   const cats = [
     { label: 'Anime, Anthromorph', path: '/cat/Anime,Anthromorph' },
