@@ -1,15 +1,13 @@
 // appcat/layout.js
 'use client'; // Mark this as a client-side component
-
-import Hotjar from '@hotjar/browser';
-
-const siteId = 5226468;
-const hotjarVersion = 6;
-
 import { usePathname } from 'next/navigation'; // Use usePathname from next/navigation
 import Link from 'next/link';
 import { Suspense, useEffect } from 'react';
 // import Search from '../../components/search/search';
+import Hotjar from '@hotjar/browser';
+
+const siteId = 5226468;
+const hotjarVersion = 6;
 
 import styles from './styles.css';
 import { relative } from 'path';
