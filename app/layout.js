@@ -18,7 +18,7 @@ export default function RootLayout({ children: Content }) {
         <meta name="google-adsense-account" content="ca-pub-9123253083798474"></meta>
         <link rel="icon" type="image/x-icon" href="fav.png"></link>
         {/* Global Site Tag (gtag.js) - Google Analytics */}
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=G-5J0LS2Y216`} />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5J0LS2Y216"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
