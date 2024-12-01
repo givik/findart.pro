@@ -49,7 +49,7 @@ const TabsLayout = ({ children }) => {
           maxWidth: '100%',
           marginLeft: 'auto',
           marginRight: 'auto',
-          fontSize: '21px',
+          fontSize: '22px',
         }}
       >
         {cats.map((cat) => (
