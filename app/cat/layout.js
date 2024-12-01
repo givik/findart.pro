@@ -43,13 +43,13 @@ const TabsLayout = ({ children }) => {
           <Search />
         </Suspense>
       </div>
-      {/* <div
+      <div
         style={{
           cursor: 'pointer',
           maxWidth: '100%',
           marginLeft: 'auto',
           marginRight: 'auto',
-          fontSize: '21px',
+          fontSize: '22px',
         }}
       >
         {cats.map((cat) => (
@@ -67,7 +67,7 @@ const TabsLayout = ({ children }) => {
             {cat.label}
           </Link>
         ))}
-      </div> */}
+      </div>
 
       {/* Render Content for Active Tab */}
       <div>{children}</div>
