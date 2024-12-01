@@ -38,11 +38,11 @@ const TabsLayout = ({ children }) => {
 
   return (
     <div>
-      <div>
+      {/* <div>
         <Suspense>
           <Search />
         </Suspense>
-      </div>
+      </div> */}
       <div
         style={{
           cursor: 'pointer',
