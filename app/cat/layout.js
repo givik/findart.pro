@@ -3,7 +3,7 @@
 import { usePathname } from 'next/navigation'; // Use usePathname from next/navigation
 import Link from 'next/link';
 import { Suspense, useEffect } from 'react';
-// import Search from '../../components/search/search';
+import Search from '../../components/search/search';
 import Hotjar from '@hotjar/browser';
 
 const siteId = 5226468;
@@ -39,11 +39,11 @@ const TabsLayout = ({ children }) => {
   return (
     <div>
       <div>
-        {/* <Suspense>
+        <Suspense>
           <Search />
-        </Suspense> */}
+        </Suspense>
       </div>
-      <div
+      {/* <div
         style={{
           cursor: 'pointer',
           maxWidth: '100%',
@@ -67,7 +67,7 @@ const TabsLayout = ({ children }) => {
             {cat.label}
           </Link>
         ))}
-      </div>
+      </div> */}
 
       {/* Render Content for Active Tab */}
       <div>{children}</div>
