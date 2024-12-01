@@ -36,7 +36,7 @@ const Tab1Page = () => {
 
   return (
     <div>
-      {loading ? <p style={{ color: 'red' }}>Loading... Please Wait...</p> : null}
+      {loading ? <p style={{ color: 'green' }}>Loading... Please Wait...</p> : null}
       <div
         style={{
           overflow: 'auto', // Enable scrolling
