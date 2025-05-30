@@ -292,3 +292,7 @@ tbody {
   white-space: nowrap;
   display: inline-block;
 }
+
+.row-header-wrapper {
+  display: none;
+}
