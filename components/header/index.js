@@ -68,6 +68,7 @@ const Header = ({ children }) => {
           display: 'flex',
           justifyContent: 'center',
           flexWrap: 'wrap',
+          fontSize: '21px',
         }}
       >
         {cats.map((cat) => (

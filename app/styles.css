@@ -269,7 +269,7 @@ table {
 thead {
   position: sticky;
   top: 0;
-  background-color: grey;
+  background-color: greenyellow;
   color: black;
   font-weight: bold;
   z-index: 999999; /* Ensures header is above other content */
